@@ -1,9 +1,120 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>第一篇文章</title>
+    <title>hexo-外挂标签测试</title>
     <url>/2024/10/03/2024-10-03-%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</url>
-    <content><![CDATA[<h2 id="第一篇文章"><a href="#第一篇文章" class="headerlink" title="第一篇文章"></a>第一篇文章</h2><h3 id="第一行脚本"><a href="#第一行脚本" class="headerlink" title="第一行脚本"></a>第一行脚本</h3><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hello word!<br></code></pre></td></tr></table></figure>]]></content>
+    <content><![CDATA[<h2 id="第一篇文章"><a href="#第一篇文章" class="headerlink" title="第一篇文章"></a>第一篇文章</h2><h3 id="第一行脚本"><a href="#第一行脚本" class="headerlink" title="第一行脚本"></a>第一行脚本</h3><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hello word!<br></code></pre></td></tr></table></figure>
+<h2 id="行内文本样式-text"><a href="#行内文本样式-text" class="headerlink" title="行内文本样式 text"></a>行内文本样式 text</h2><ol>
+<li>带 <u>下划线</u> 的文本</li>
+<li>带 <emp>着重号</emp> 的文本</li>
+<li>带 <wavy>波浪线</wavy> 的文本</li>
+<li>带 <del>删除线</del> 的文本</li>
+<li>键盘样式的文本 <kbd>command</kbd> + <kbd>D</kbd></li>
+<li>密码样式的文本：<psw>这里没有验证码</psw></li>
+</ol>
+<h2 id="行内文本-span"><a href="#行内文本-span" class="headerlink" title="行内文本 span"></a>行内文本 span</h2><ul>
+<li>彩色文字<br>在一段话中方便插入各种颜色的标签，包括：<span class='p red'>红色</span>、<span class='p yellow'>黄色</span>、<span class='p green'>绿色</span>、<span class='p cyan'>青色</span>、<span class='p blue'>蓝色</span>、<span class='p gray'>灰色</span>。</li>
+<li>超大号文字<br>文档「开始」页面中的标题部分就是超大号文字。<span class='p center logo large'>Volantis</span>
+<span class='p center small'>A Wonderful Theme for Hexo</span>
+</li>
+</ul>
+<h2 id="段落文本-p"><a href="#段落文本-p" class="headerlink" title="段落文本 p"></a>段落文本 p</h2><ul>
+<li>彩色文字<br>在一段话中方便插入各种颜色的标签，包括：<p class='p red'>红色</p>、<p class='p yellow'>黄色</p>、<p class='p green'>绿色</p>、<p class='p cyan'>青色</p>、<p class='p blue'>蓝色</p>、<p class='p gray'>灰色</p>。</li>
+<li>超大号文字<br>文档「开始」页面中的标题部分就是超大号文字。<p class='p center logo large'>Volantis</p>
+<p class='p center small'>A Wonderful Theme for Hexo</p>
+</li>
+</ul>
+<h2 id="引用-note"><a href="#引用-note" class="headerlink" title="引用 note"></a>引用 note</h2><div class="note simple"><p>默认 提示块标签</p>
+</div>
+<div class="note default simple"><p>default 提示块标签</p>
+</div>
+<div class="note primary simple"><p>primary 提示块标签</p>
+</div>
+<div class="note success simple"><p>success 提示块标签</p>
+</div>
+<div class="note info simple"><p>info 提示块标签</p>
+</div>
+<div class="note warning simple"><p>warning 提示块标签</p>
+</div>
+<div class="note danger simple"><p>danger 提示块标签</p>
+</div>
+<h2 id="上标标签-tip"><a href="#上标标签-tip" class="headerlink" title="上标标签 tip"></a>上标标签 tip</h2><div class="tip "><p>default</p>
+</div>
+<div class="tip info"><p>info</p>
+</div>
+<div class="tip success"><p>success</p>
+</div>
+<div class="tip error"><p>error</p>
+</div>
+<div class="tip warning"><p>warning</p>
+</div>
+<div class="tip bolt"><p>bolt</p>
+</div>
+<div class="tip ban"><p>ban</p>
+</div>
+<div class="tip home"><p>home</p>
+</div>
+<div class="tip sync"><p>sync</p>
+</div>
+<div class="tip cogs"><p>cogs</p>
+</div>
+<div class="tip key"><p>key</p>
+</div>
+<div class="tip bell"><p>bell</p>
+</div>
+<div class="tip fa-atom"><p>自定义font awesome图标</p>
+</div>
+<h2 id="动态标签-anima"><a href="#动态标签-anima" class="headerlink" title="动态标签 anima"></a>动态标签 anima</h2><h3 id="On-DOM-load（当页面加载时显示动画）"><a href="#On-DOM-load（当页面加载时显示动画）" class="headerlink" title="On DOM load（当页面加载时显示动画）"></a>On DOM load（当页面加载时显示动画）</h3><div class="tip warning faa-horizontal animated"><p>warning</p>
+</div>
+<div class="tip ban faa-flash animated"><p>ban</p>
+</div>
+<h3 id="调整动画速度"><a href="#调整动画速度" class="headerlink" title="调整动画速度"></a>调整动画速度</h3><div class="tip warning faa-horizontal animated faa-fast"><p>warning</p>
+</div>
+<div class="tip ban faa-flash animated faa-slow"><p>ban</p>
+</div>
+<h3 id="On-hover（当鼠标悬停时显示动画）"><a href="#On-hover（当鼠标悬停时显示动画）" class="headerlink" title="On hover（当鼠标悬停时显示动画）"></a>On hover（当鼠标悬停时显示动画）</h3><div class="tip warning faa-horizontal animated-hover"><p>warning</p>
+</div>
+<div class="tip ban faa-flash animated-hover"><p>ban</p>
+</div>
+<h3 id="On-parent-hover（当鼠标悬停在父级元素时显示动画）"><a href="#On-parent-hover（当鼠标悬停在父级元素时显示动画）" class="headerlink" title="On parent hover（当鼠标悬停在父级元素时显示动画）"></a>On parent hover（当鼠标悬停在父级元素时显示动画）</h3><div class="tip warning faa-parent animated-hover"><p class="faa-horizontal">warning</p></div>
+<div class="tip ban faa-parent animated-hover"><p class="faa-flash">ban</p></div>
+<h2 id="复选列表-checkbox"><a href="#复选列表-checkbox" class="headerlink" title="复选列表 checkbox"></a>复选列表 checkbox</h2><div class='checkbox'><input type="checkbox" />
+            <p>纯文本测试</p>
+            </div>
+<div class='checkbox checked'><input type="checkbox" checked="checked"/>
+            <p>支持简单的 <a href="https://guides.github.com/features/mastering-markdown/">markdown</a> 语法</p>
+            </div>
+<div class='checkbox red'><input type="checkbox" />
+            <p>支持自定义颜色</p>
+            </div>
+<div class='checkbox green checked'><input type="checkbox" checked="checked"/>
+            <p>绿色 + 默认选中</p>
+            </div>
+<div class='checkbox yellow checked'><input type="checkbox" checked="checked"/>
+            <p>黄色 + 默认选中</p>
+            </div>
+<div class='checkbox cyan checked'><input type="checkbox" checked="checked"/>
+            <p>青色 + 默认选中</p>
+            </div>
+<div class='checkbox blue checked'><input type="checkbox" checked="checked"/>
+            <p>蓝色 + 默认选中</p>
+            </div>
+<div class='checkbox plus green checked'><input type="checkbox" checked="checked"/>
+            <p>增加</p>
+            </div>
+<div class='checkbox minus yellow checked'><input type="checkbox" checked="checked"/>
+            <p>减少</p>
+            </div>
+<div class='checkbox times red checked'><input type="checkbox" checked="checked"/>
+            <p>叉</p>
+            </div>
+<h2 id="进度条"><a href="#进度条" class="headerlink" title="进度条"></a>进度条</h2><div class="progress"><div class="progress-bar-animated progress-bar progress-bar-striped bg-red"  style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"><p>进度条样式预览</p></div></div>
+<div class="progress"><div class="progress-bar-animated progress-bar progress-bar-striped bg-yellow"  style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"><p>进度条样式预览</p></div></div>
+<div class="progress"><div class="progress-bar-animated progress-bar progress-bar-striped bg-green"  style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"><p>进度条样式预览</p></div></div>
+<div class="progress"><div class="progress-bar-animated progress-bar progress-bar-striped bg-cyan"  style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"><p>进度条样式预览</p></div></div>
+<div class="progress"><div class="progress-bar-animated progress-bar progress-bar-striped bg-blue"  style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"><p>进度条样式预览</p></div></div>
+<div class="progress"><div class="progress-bar-animated progress-bar progress-bar-striped bg-gray"  style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"><p>进度条样式预览</p></div></div>
+<h2 id="注释notation"><a href="#注释notation" class="headerlink" title="注释notation"></a>注释notation</h2><span class='nota' data-nota='可以看到注解内容出现在顶栏'>把鼠标移动到我上面试试</span>]]></content>
       <categories>
         <category>测试</category>
       </categories>
@@ -12,25 +123,13 @@
       </tags>
   </entry>
   <entry>
-    <title>磁盘管理LVM详解及LVM常用命令</title>
-    <url>/2024/10/08/LVM%E7%A3%81%E7%9B%98%E7%AE%A1%E7%90%86/</url>
-    <content><![CDATA[<h2 id="什么是LVM？"><a href="#什么是LVM？" class="headerlink" title="什么是LVM？"></a>什么是LVM？</h2>]]></content>
-      <categories>
-        <category>linux</category>
-      </categories>
-      <tags>
-        <tag>linux</tag>
-        <tag>LVM</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>hexo博客插入图表</title>
     <url>/2024/10/08/echarts/</url>
-    <content><![CDATA[<h2 id="柱状图"><a href="#柱状图" class="headerlink" title="柱状图"></a>柱状图</h2><div id="echarts976" style="width: 85%;height: 400px;margin: 0 auto"></div>
+    <content><![CDATA[<h2 id="柱状图"><a href="#柱状图" class="headerlink" title="柱状图"></a>柱状图</h2><div id="echarts7753" style="width: 85%;height: 400px;margin: 0 auto"></div>
 <script src="https://cdn.bootcss.com/echarts/3.8.0/echarts.common.min.js"></script>
 <script type="text/javascript">
         // 基于准备好的dom，初始化echarts实例
-        var myChart = echarts.init(document.getElementById('echarts976'));
+        var myChart = echarts.init(document.getElementById('echarts7753'));
         // 指定图表的配置项和数据
         var option = option = {
   xAxis: {
@@ -50,12 +149,11 @@
         // 使用刚指定的配置项和数据显示图表。
         myChart.setOption(option);
 </script>
-
-<h2 id="带有颜色的柱状图"><a href="#带有颜色的柱状图" class="headerlink" title="带有颜色的柱状图"></a>带有颜色的柱状图</h2><div id="echarts1657" style="width: 85%;height: 400px;margin: 0 auto"></div>
+<h2 id="带有颜色的柱状图"><a href="#带有颜色的柱状图" class="headerlink" title="带有颜色的柱状图"></a>带有颜色的柱状图</h2><div id="echarts7933" style="width: 85%;height: 400px;margin: 0 auto"></div>
 <script src="https://cdn.bootcss.com/echarts/3.8.0/echarts.common.min.js"></script>
 <script type="text/javascript">
         // 基于准备好的dom，初始化echarts实例
-        var myChart = echarts.init(document.getElementById('echarts1657'));
+        var myChart = echarts.init(document.getElementById('echarts7933'));
         // 指定图表的配置项和数据
         var option = option = {
   title: {
@@ -128,12 +226,11 @@
         // 使用刚指定的配置项和数据显示图表。
         myChart.setOption(option);
 </script>
-
-<h2 id="饼状图"><a href="#饼状图" class="headerlink" title="饼状图"></a>饼状图</h2><div id="echarts1436" style="width: 85%;height: 400px;margin: 0 auto"></div>
+<h2 id="饼状图"><a href="#饼状图" class="headerlink" title="饼状图"></a>饼状图</h2><div id="echarts2187" style="width: 85%;height: 400px;margin: 0 auto"></div>
 <script src="https://cdn.bootcss.com/echarts/3.8.0/echarts.common.min.js"></script>
 <script type="text/javascript">
         // 基于准备好的dom，初始化echarts实例
-        var myChart = echarts.init(document.getElementById('echarts1436'));
+        var myChart = echarts.init(document.getElementById('echarts2187'));
         // 指定图表的配置项和数据
         var option = option = {
   title: {
@@ -173,12 +270,11 @@
         // 使用刚指定的配置项和数据显示图表。
         myChart.setOption(option);
 </script>
-
-<h2 id="仪表盘"><a href="#仪表盘" class="headerlink" title="仪表盘"></a>仪表盘</h2><div id="echarts4029" style="width: 85%;height: 400px;margin: 0 auto"></div>
+<h2 id="仪表盘"><a href="#仪表盘" class="headerlink" title="仪表盘"></a>仪表盘</h2><div id="echarts1472" style="width: 85%;height: 400px;margin: 0 auto"></div>
 <script src="https://cdn.bootcss.com/echarts/3.8.0/echarts.common.min.js"></script>
 <script type="text/javascript">
         // 基于准备好的dom，初始化echarts实例
-        var myChart = echarts.init(document.getElementById('echarts4029'));
+        var myChart = echarts.init(document.getElementById('echarts1472'));
         // 指定图表的配置项和数据
         var option = option = {
   tooltip: {
@@ -202,8 +298,7 @@
 };
         // 使用刚指定的配置项和数据显示图表。
         myChart.setOption(option);
-</script>
-]]></content>
+</script>]]></content>
       <categories>
         <category>Hexo</category>
       </categories>
@@ -214,21 +309,47 @@
       </tags>
   </entry>
   <entry>
-    <title>Hello World</title>
-    <url>/2024/10/03/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+    <title>磁盘管理LVM详解及LVM常用命令</title>
+    <url>/2024/10/08/LVM%E7%A3%81%E7%9B%98%E7%AE%A1%E7%90%86/</url>
+    <content><![CDATA[<h2 id="什么是LVM？"><a href="#什么是LVM？" class="headerlink" title="什么是LVM？"></a>什么是LVM？</h2>]]></content>
+      <categories>
+        <category>linux</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+        <tag>linux</tag>
+        <tag>LVM</tag>
+        <tag>test</tag>
+        <tag>磁盘管理</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>hexo-插入图片</title>
+    <url>/2024/10/15/hexo-%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87/</url>
+    <content><![CDATA[<h2 id="插入本地图片"><a href="#插入本地图片" class="headerlink" title="插入本地图片"></a>插入本地图片</h2><figure class="highlight markdown"><table><tr><td class="code"><pre><code class="hljs MARKDOWN">![<span class="hljs-string">图片描述</span>](<span class="hljs-link">图片的url</span>)<br></code></pre></td></tr></table></figure>
+<p>举个例子:我想插入images目录下的goku.png的照片并命名为悟空<br>PS: hexo默认的/目录为source目录、我们需要在souces目录下创建个images即可并把gouku.png图片放到images目录下即可引用<br><figure class="highlight markdown"><table><tr><td class="code"><pre><code class="hljs MARKDOWN">![<span class="hljs-string">悟空</span>](<span class="hljs-link">/images/goku.png</span>)<br></code></pre></td></tr></table></figure><br><img src="/images/goku.png" alt="悟空"></p>
 ]]></content>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>诗词</title>
+    <url>/2024/10/11/%E6%B0%B4%E8%B0%83%E6%AD%8C%E5%A4%B4/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="68b2491863f5bcacdd62f22274a519fc8b002d179b887476d6b2c2f0d3901c29">98920830693a6efc7fd9cefd5835d10f30caf0d9c62d676a40b99146a6c7e3c9556182603dff52c58f451f32e2fa931948b3043b2a26b983c325394cc8a689d2b4b7e1a425a0434773d5e26d71003075b0298a591db60f002fb79ff805370c98159e0588fc8128f676d2eb7639eb435801d3886888b9c5b0b6c43f1fa636dffc639d6a17231ecb2a802cc7cfd1fcbc3da6eb484fc67df446cf90d59c4404cc500759a148d3408fd70352c80f6428cf8ec1ffcc7cc46a0924037bf1787281338a1b1cd817bc3a238cde124880f0edac3e53442534d3b77c57843ad275582f4b9965657610fc2490994302d5557265b34ab639b5b05d1d2b2306d991d1b2bf876b312fff6606683086c2348acbacc9c6aecc436081366d893f0617b57019126f789c30c4adc61a7e92e1da2c61f01e7631014e99bbd6b9594391c6d1bb27468ca93dbde76fd50eb6cb6ed579f370ffab35435c79b2b07ab82a0d3e0e79612396fd1443f3e693719218c3b8cbb6104e0100a015ef745086c0ce3eeb2dccf65fb7244c1f5609722d88a9cf7397a245db3ca1d5f3630fa0cf691c2c85963945f3e1c3665931b863e7e10644ea46dc45ba9a81e47d7f80b045999227a66f0605cdd112be571af874e5e615708acdaa39ee7f518c3d4a081ce6192e226fde082f900eff07df6edea1b255b583fde48fe563cda90bc04fe11c62b80ec95d2d36ddb41a01884f2b161d2de421a3d896284785b1cf85a58c7a28f0121fcb14128adf460a14713db42379a04ab861fb16ba43d8d260901ed76795c0179c6a7d8c46808dc04466a3953355b41fcdfc5e1325dd0691f2</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">密码输入框上描述性内容</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <tags>
+        <tag>诗词</tag>
+      </tags>
   </entry>
 </search>
