@@ -140,11 +140,11 @@
   <entry>
     <title>hexo博客插入图表</title>
     <url>/2024/10/08/echarts/</url>
-    <content><![CDATA[<h2 id="柱状图"><a href="#柱状图" class="headerlink" title="柱状图"></a>柱状图</h2><div id="echarts6451" style="width: 85%;height: 400px;margin: 0 auto"></div>
+    <content><![CDATA[<h2 id="柱状图"><a href="#柱状图" class="headerlink" title="柱状图"></a>柱状图</h2><div id="echarts1394" style="width: 85%;height: 400px;margin: 0 auto"></div>
 <script src="https://cdn.bootcss.com/echarts/3.8.0/echarts.common.min.js"></script>
 <script type="text/javascript">
         // 基于准备好的dom，初始化echarts实例
-        var myChart = echarts.init(document.getElementById('echarts6451'));
+        var myChart = echarts.init(document.getElementById('echarts1394'));
         // 指定图表的配置项和数据
         var option = option = {
   xAxis: {
@@ -164,11 +164,11 @@
         // 使用刚指定的配置项和数据显示图表。
         myChart.setOption(option);
 </script>
-<h2 id="带有颜色的柱状图"><a href="#带有颜色的柱状图" class="headerlink" title="带有颜色的柱状图"></a>带有颜色的柱状图</h2><div id="echarts6663" style="width: 85%;height: 400px;margin: 0 auto"></div>
+<h2 id="带有颜色的柱状图"><a href="#带有颜色的柱状图" class="headerlink" title="带有颜色的柱状图"></a>带有颜色的柱状图</h2><div id="echarts7568" style="width: 85%;height: 400px;margin: 0 auto"></div>
 <script src="https://cdn.bootcss.com/echarts/3.8.0/echarts.common.min.js"></script>
 <script type="text/javascript">
         // 基于准备好的dom，初始化echarts实例
-        var myChart = echarts.init(document.getElementById('echarts6663'));
+        var myChart = echarts.init(document.getElementById('echarts7568'));
         // 指定图表的配置项和数据
         var option = option = {
   title: {
@@ -241,11 +241,11 @@
         // 使用刚指定的配置项和数据显示图表。
         myChart.setOption(option);
 </script>
-<h2 id="饼状图"><a href="#饼状图" class="headerlink" title="饼状图"></a>饼状图</h2><div id="echarts3426" style="width: 85%;height: 400px;margin: 0 auto"></div>
+<h2 id="饼状图"><a href="#饼状图" class="headerlink" title="饼状图"></a>饼状图</h2><div id="echarts3464" style="width: 85%;height: 400px;margin: 0 auto"></div>
 <script src="https://cdn.bootcss.com/echarts/3.8.0/echarts.common.min.js"></script>
 <script type="text/javascript">
         // 基于准备好的dom，初始化echarts实例
-        var myChart = echarts.init(document.getElementById('echarts3426'));
+        var myChart = echarts.init(document.getElementById('echarts3464'));
         // 指定图表的配置项和数据
         var option = option = {
   title: {
@@ -285,11 +285,11 @@
         // 使用刚指定的配置项和数据显示图表。
         myChart.setOption(option);
 </script>
-<h2 id="仪表盘"><a href="#仪表盘" class="headerlink" title="仪表盘"></a>仪表盘</h2><div id="echarts4199" style="width: 85%;height: 400px;margin: 0 auto"></div>
+<h2 id="仪表盘"><a href="#仪表盘" class="headerlink" title="仪表盘"></a>仪表盘</h2><div id="echarts3272" style="width: 85%;height: 400px;margin: 0 auto"></div>
 <script src="https://cdn.bootcss.com/echarts/3.8.0/echarts.common.min.js"></script>
 <script type="text/javascript">
         // 基于准备好的dom，初始化echarts实例
-        var myChart = echarts.init(document.getElementById('echarts4199'));
+        var myChart = echarts.init(document.getElementById('echarts3272'));
         // 指定图表的配置项和数据
         var option = option = {
   tooltip: {
