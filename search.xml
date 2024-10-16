@@ -123,13 +123,28 @@
       </tags>
   </entry>
   <entry>
+    <title>磁盘管理LVM详解及LVM常用命令</title>
+    <url>/2024/10/08/LVM%E7%A3%81%E7%9B%98%E7%AE%A1%E7%90%86/</url>
+    <content><![CDATA[<h2 id="什么是LVM？"><a href="#什么是LVM？" class="headerlink" title="什么是LVM？"></a>什么是LVM？</h2>]]></content>
+      <categories>
+        <category>linux</category>
+      </categories>
+      <tags>
+        <tag>linux</tag>
+        <tag>LVM</tag>
+        <tag>test</tag>
+        <tag>磁盘管理</tag>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>hexo博客插入图表</title>
     <url>/2024/10/08/echarts/</url>
-    <content><![CDATA[<h2 id="柱状图"><a href="#柱状图" class="headerlink" title="柱状图"></a>柱状图</h2><div id="echarts7753" style="width: 85%;height: 400px;margin: 0 auto"></div>
+    <content><![CDATA[<h2 id="柱状图"><a href="#柱状图" class="headerlink" title="柱状图"></a>柱状图</h2><div id="echarts5901" style="width: 85%;height: 400px;margin: 0 auto"></div>
 <script src="https://cdn.bootcss.com/echarts/3.8.0/echarts.common.min.js"></script>
 <script type="text/javascript">
         // 基于准备好的dom，初始化echarts实例
-        var myChart = echarts.init(document.getElementById('echarts7753'));
+        var myChart = echarts.init(document.getElementById('echarts5901'));
         // 指定图表的配置项和数据
         var option = option = {
   xAxis: {
@@ -149,11 +164,11 @@
         // 使用刚指定的配置项和数据显示图表。
         myChart.setOption(option);
 </script>
-<h2 id="带有颜色的柱状图"><a href="#带有颜色的柱状图" class="headerlink" title="带有颜色的柱状图"></a>带有颜色的柱状图</h2><div id="echarts7933" style="width: 85%;height: 400px;margin: 0 auto"></div>
+<h2 id="带有颜色的柱状图"><a href="#带有颜色的柱状图" class="headerlink" title="带有颜色的柱状图"></a>带有颜色的柱状图</h2><div id="echarts3826" style="width: 85%;height: 400px;margin: 0 auto"></div>
 <script src="https://cdn.bootcss.com/echarts/3.8.0/echarts.common.min.js"></script>
 <script type="text/javascript">
         // 基于准备好的dom，初始化echarts实例
-        var myChart = echarts.init(document.getElementById('echarts7933'));
+        var myChart = echarts.init(document.getElementById('echarts3826'));
         // 指定图表的配置项和数据
         var option = option = {
   title: {
@@ -226,11 +241,11 @@
         // 使用刚指定的配置项和数据显示图表。
         myChart.setOption(option);
 </script>
-<h2 id="饼状图"><a href="#饼状图" class="headerlink" title="饼状图"></a>饼状图</h2><div id="echarts2187" style="width: 85%;height: 400px;margin: 0 auto"></div>
+<h2 id="饼状图"><a href="#饼状图" class="headerlink" title="饼状图"></a>饼状图</h2><div id="echarts9406" style="width: 85%;height: 400px;margin: 0 auto"></div>
 <script src="https://cdn.bootcss.com/echarts/3.8.0/echarts.common.min.js"></script>
 <script type="text/javascript">
         // 基于准备好的dom，初始化echarts实例
-        var myChart = echarts.init(document.getElementById('echarts2187'));
+        var myChart = echarts.init(document.getElementById('echarts9406'));
         // 指定图表的配置项和数据
         var option = option = {
   title: {
@@ -270,11 +285,11 @@
         // 使用刚指定的配置项和数据显示图表。
         myChart.setOption(option);
 </script>
-<h2 id="仪表盘"><a href="#仪表盘" class="headerlink" title="仪表盘"></a>仪表盘</h2><div id="echarts1472" style="width: 85%;height: 400px;margin: 0 auto"></div>
+<h2 id="仪表盘"><a href="#仪表盘" class="headerlink" title="仪表盘"></a>仪表盘</h2><div id="echarts1807" style="width: 85%;height: 400px;margin: 0 auto"></div>
 <script src="https://cdn.bootcss.com/echarts/3.8.0/echarts.common.min.js"></script>
 <script type="text/javascript">
         // 基于准备好的dom，初始化echarts实例
-        var myChart = echarts.init(document.getElementById('echarts1472'));
+        var myChart = echarts.init(document.getElementById('echarts1807'));
         // 指定图表的配置项和数据
         var option = option = {
   tooltip: {
@@ -309,21 +324,6 @@
       </tags>
   </entry>
   <entry>
-    <title>磁盘管理LVM详解及LVM常用命令</title>
-    <url>/2024/10/08/LVM%E7%A3%81%E7%9B%98%E7%AE%A1%E7%90%86/</url>
-    <content><![CDATA[<h2 id="什么是LVM？"><a href="#什么是LVM？" class="headerlink" title="什么是LVM？"></a>什么是LVM？</h2>]]></content>
-      <categories>
-        <category>linux</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
-        <tag>linux</tag>
-        <tag>LVM</tag>
-        <tag>test</tag>
-        <tag>磁盘管理</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>hexo-插入图片</title>
     <url>/2024/10/15/hexo-%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87/</url>
     <content><![CDATA[<h2 id="插入本地图片"><a href="#插入本地图片" class="headerlink" title="插入本地图片"></a>插入本地图片</h2><figure class="highlight markdown"><table><tr><td class="code"><pre><code class="hljs MARKDOWN">![<span class="hljs-string">图片描述</span>](<span class="hljs-link">图片的url</span>)<br></code></pre></td></tr></table></figure>
@@ -336,18 +336,9 @@
   <entry>
     <title>诗词</title>
     <url>/2024/10/11/%E6%B0%B4%E8%B0%83%E6%AD%8C%E5%A4%B4/</url>
-    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="68b2491863f5bcacdd62f22274a519fc8b002d179b887476d6b2c2f0d3901c29">98920830693a6efc7fd9cefd5835d10f30caf0d9c62d676a40b99146a6c7e3c9556182603dff52c58f451f32e2fa931948b3043b2a26b983c325394cc8a689d2b4b7e1a425a0434773d5e26d71003075b0298a591db60f002fb79ff805370c98159e0588fc8128f676d2eb7639eb435801d3886888b9c5b0b6c43f1fa636dffc639d6a17231ecb2a802cc7cfd1fcbc3da6eb484fc67df446cf90d59c4404cc500759a148d3408fd70352c80f6428cf8ec1ffcc7cc46a0924037bf1787281338a1b1cd817bc3a238cde124880f0edac3e53442534d3b77c57843ad275582f4b9965657610fc2490994302d5557265b34ab639b5b05d1d2b2306d991d1b2bf876b312fff6606683086c2348acbacc9c6aecc436081366d893f0617b57019126f789c30c4adc61a7e92e1da2c61f01e7631014e99bbd6b9594391c6d1bb27468ca93dbde76fd50eb6cb6ed579f370ffab35435c79b2b07ab82a0d3e0e79612396fd1443f3e693719218c3b8cbb6104e0100a015ef745086c0ce3eeb2dccf65fb7244c1f5609722d88a9cf7397a245db3ca1d5f3630fa0cf691c2c85963945f3e1c3665931b863e7e10644ea46dc45ba9a81e47d7f80b045999227a66f0605cdd112be571af874e5e615708acdaa39ee7f518c3d4a081ce6192e226fde082f900eff07df6edea1b255b583fde48fe563cda90bc04fe11c62b80ec95d2d36ddb41a01884f2b161d2de421a3d896284785b1cf85a58c7a28f0121fcb14128adf460a14713db42379a04ab861fb16ba43d8d260901ed76795c0179c6a7d8c46808dc04466a3953355b41fcdfc5e1325dd0691f2</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-default">
-      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-default">密码输入框上描述性内容</span>
-      </label>
-    </div>
-  </div>
-</div>
-<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+    <content><![CDATA[<div class='poem'><div class='poem-title'>水调歌头</div><div class='poem-author'>苏轼</div><p>丙辰中秋，欢饮达旦，大醉，作此篇，兼怀子由。<br>明月几时有？把酒问青天。<br>不知天上宫阙，今夕是何年？<br>我欲乘风归去，又恐琼楼玉宇，高处不胜寒。<br>起舞弄清影，何似在人间？</p>
+<p>转朱阁，低绮户，照无眠。<br>不应有恨，何事长向别时圆？<br>人有悲欢离合，月有阴晴圆缺，此事古难全。<br>但愿人长久，千里共婵娟。</p>
+</div>]]></content>
       <tags>
         <tag>诗词</tag>
       </tags>
