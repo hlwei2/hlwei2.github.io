@@ -1,8 +1,206 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>磁盘管理LVM详解及LVM常用命令</title>
+    <url>/2024/10/08/LVM%E7%A3%81%E7%9B%98%E7%AE%A1%E7%90%86/</url>
+    <content><![CDATA[<h2 id="什么是LVM？"><a href="#什么是LVM？" class="headerlink" title="什么是LVM？"></a>什么是LVM？</h2>]]></content>
+      <categories>
+        <category>Linux操作系统</category>
+      </categories>
+      <tags>
+        <tag>linux</tag>
+        <tag>LVM</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>hexo博客插入图表</title>
+    <url>/2024/10/08/echarts/</url>
+    <content><![CDATA[<h2 id="柱状图"><a href="#柱状图" class="headerlink" title="柱状图"></a>柱状图</h2><div id="echarts7644" style="width: 85%;height: 400px;margin: 0 auto"></div>
+<script src="https://cdn.bootcss.com/echarts/3.8.0/echarts.common.min.js"></script>
+<script type="text/javascript">
+        // 基于准备好的dom，初始化echarts实例
+        var myChart = echarts.init(document.getElementById('echarts7644'));
+        // 指定图表的配置项和数据
+        var option = option = {
+  xAxis: {
+    type: 'category',
+    data: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
+  },
+  yAxis: {
+    type: 'value'
+  },
+  series: [
+    {
+      data: [120, 200, 150, 80, 70, 110, 130],
+      type: 'bar'
+    }
+  ]
+};
+        // 使用刚指定的配置项和数据显示图表。
+        myChart.setOption(option);
+</script>
+<h2 id="带有颜色的柱状图"><a href="#带有颜色的柱状图" class="headerlink" title="带有颜色的柱状图"></a>带有颜色的柱状图</h2><div id="echarts923" style="width: 85%;height: 400px;margin: 0 auto"></div>
+<script src="https://cdn.bootcss.com/echarts/3.8.0/echarts.common.min.js"></script>
+<script type="text/javascript">
+        // 基于准备好的dom，初始化echarts实例
+        var myChart = echarts.init(document.getElementById('echarts923'));
+        // 指定图表的配置项和数据
+        var option = option = {
+  title: {
+    text: 'Rainfall vs Evaporation',
+    subtext: 'Fake Data'
+  },
+  tooltip: {
+    trigger: 'axis'
+  },
+  legend: {
+    data: ['Rainfall', 'Evaporation']
+  },
+  toolbox: {
+    show: true,
+    feature: {
+      dataView: { show: true, readOnly: false },
+      magicType: { show: true, type: ['line', 'bar'] },
+      restore: { show: true },
+      saveAsImage: { show: true }
+    }
+  },
+  calculable: true,
+  xAxis: [
+    {
+      type: 'category',
+      // prettier-ignore
+      data: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+    }
+  ],
+  yAxis: [
+    {
+      type: 'value'
+    }
+  ],
+  series: [
+    {
+      name: 'Rainfall',
+      type: 'bar',
+      data: [
+        2.0, 4.9, 7.0, 23.2, 25.6, 76.7, 135.6, 162.2, 32.6, 20.0, 6.4, 3.3
+      ],
+      markPoint: {
+        data: [
+          { type: 'max', name: 'Max' },
+          { type: 'min', name: 'Min' }
+        ]
+      },
+      markLine: {
+        data: [{ type: 'average', name: 'Avg' }]
+      }
+    },
+    {
+      name: 'Evaporation',
+      type: 'bar',
+      data: [
+        2.6, 5.9, 9.0, 26.4, 28.7, 70.7, 175.6, 182.2, 48.7, 18.8, 6.0, 2.3
+      ],
+      markPoint: {
+        data: [
+          { name: 'Max', value: 182.2, xAxis: 7, yAxis: 183 },
+          { name: 'Min', value: 2.3, xAxis: 11, yAxis: 3 }
+        ]
+      },
+      markLine: {
+        data: [{ type: 'average', name: 'Avg' }]
+      }
+    }
+  ]
+};
+        // 使用刚指定的配置项和数据显示图表。
+        myChart.setOption(option);
+</script>
+<h2 id="饼状图"><a href="#饼状图" class="headerlink" title="饼状图"></a>饼状图</h2><div id="echarts3092" style="width: 85%;height: 400px;margin: 0 auto"></div>
+<script src="https://cdn.bootcss.com/echarts/3.8.0/echarts.common.min.js"></script>
+<script type="text/javascript">
+        // 基于准备好的dom，初始化echarts实例
+        var myChart = echarts.init(document.getElementById('echarts3092'));
+        // 指定图表的配置项和数据
+        var option = option = {
+  title: {
+    text: 'Referer of a Website',
+    subtext: 'Fake Data',
+    left: 'center'
+  },
+  tooltip: {
+    trigger: 'item'
+  },
+  legend: {
+    orient: 'vertical',
+    left: 'left'
+  },
+  series: [
+    {
+      name: 'Access From',
+      type: 'pie',
+      radius: '50%',
+      data: [
+        { value: 1048, name: 'Search Engine' },
+        { value: 735, name: 'Direct' },
+        { value: 580, name: 'Email' },
+        { value: 484, name: 'Union Ads' },
+        { value: 300, name: 'Video Ads' }
+      ],
+      emphasis: {
+        itemStyle: {
+          shadowBlur: 10,
+          shadowOffsetX: 0,
+          shadowColor: 'rgba(0, 0, 0, 0.5)'
+        }
+      }
+    }
+  ]
+};
+        // 使用刚指定的配置项和数据显示图表。
+        myChart.setOption(option);
+</script>
+<h2 id="仪表盘"><a href="#仪表盘" class="headerlink" title="仪表盘"></a>仪表盘</h2><div id="echarts6647" style="width: 85%;height: 400px;margin: 0 auto"></div>
+<script src="https://cdn.bootcss.com/echarts/3.8.0/echarts.common.min.js"></script>
+<script type="text/javascript">
+        // 基于准备好的dom，初始化echarts实例
+        var myChart = echarts.init(document.getElementById('echarts6647'));
+        // 指定图表的配置项和数据
+        var option = option = {
+  tooltip: {
+    formatter: '{a} <br/>{b} : {c}%'
+  },
+  series: [
+    {
+      name: 'Sugar',
+      type: 'gauge',
+      detail: {
+        formatter: '{value}'
+      },
+      data: [
+        {
+          value: 90,
+          name: 'SCORE'
+        }
+      ]
+    }
+  ]
+};
+        // 使用刚指定的配置项和数据显示图表。
+        myChart.setOption(option);
+</script>]]></content>
+      <categories>
+        <category>Hexo博客</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+        <tag>butterfly</tag>
+        <tag>echarts</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>hexo-外挂标签测试</title>
-    <url>/2024/10/03/2024-10-03-%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</url>
+    <url>/2024/10/03/hexo-%E5%A4%96%E6%8C%82%E6%A0%87%E7%AD%BE/</url>
     <content><![CDATA[<h2 id="第一篇文章"><a href="#第一篇文章" class="headerlink" title="第一篇文章"></a>第一篇文章</h2><h3 id="第一行脚本"><a href="#第一行脚本" class="headerlink" title="第一行脚本"></a>第一行脚本</h3><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hello word!<br></code></pre></td></tr></table></figure>
 <h2 id="行内文本样式-text"><a href="#行内文本样式-text" class="headerlink" title="行内文本样式 text"></a>行内文本样式 text</h2><ol>
 <li>带 <u>下划线</u> 的文本</li>
@@ -116,211 +314,10 @@
 <div class="progress"><div class="progress-bar-animated progress-bar progress-bar-striped bg-gray"  style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"><p>进度条样式预览</p></div></div>
 <h2 id="注释notation"><a href="#注释notation" class="headerlink" title="注释notation"></a>注释notation</h2><span class='nota' data-nota='可以看到注解内容出现在顶栏'>把鼠标移动到我上面试试</span>]]></content>
       <categories>
-        <category>测试</category>
+        <category>Hexo博客</category>
       </categories>
       <tags>
-        <tag>学习</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>磁盘管理LVM详解及LVM常用命令</title>
-    <url>/2024/10/08/LVM%E7%A3%81%E7%9B%98%E7%AE%A1%E7%90%86/</url>
-    <content><![CDATA[<h2 id="什么是LVM？"><a href="#什么是LVM？" class="headerlink" title="什么是LVM？"></a>什么是LVM？</h2>]]></content>
-      <categories>
-        <category>linux</category>
-      </categories>
-      <tags>
-        <tag>linux</tag>
-        <tag>LVM</tag>
-        <tag>test</tag>
-        <tag>磁盘管理</tag>
-        <tag>hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>hexo博客插入图表</title>
-    <url>/2024/10/08/echarts/</url>
-    <content><![CDATA[<h2 id="柱状图"><a href="#柱状图" class="headerlink" title="柱状图"></a>柱状图</h2><div id="echarts1394" style="width: 85%;height: 400px;margin: 0 auto"></div>
-<script src="https://cdn.bootcss.com/echarts/3.8.0/echarts.common.min.js"></script>
-<script type="text/javascript">
-        // 基于准备好的dom，初始化echarts实例
-        var myChart = echarts.init(document.getElementById('echarts1394'));
-        // 指定图表的配置项和数据
-        var option = option = {
-  xAxis: {
-    type: 'category',
-    data: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
-  },
-  yAxis: {
-    type: 'value'
-  },
-  series: [
-    {
-      data: [120, 200, 150, 80, 70, 110, 130],
-      type: 'bar'
-    }
-  ]
-};
-        // 使用刚指定的配置项和数据显示图表。
-        myChart.setOption(option);
-</script>
-<h2 id="带有颜色的柱状图"><a href="#带有颜色的柱状图" class="headerlink" title="带有颜色的柱状图"></a>带有颜色的柱状图</h2><div id="echarts7568" style="width: 85%;height: 400px;margin: 0 auto"></div>
-<script src="https://cdn.bootcss.com/echarts/3.8.0/echarts.common.min.js"></script>
-<script type="text/javascript">
-        // 基于准备好的dom，初始化echarts实例
-        var myChart = echarts.init(document.getElementById('echarts7568'));
-        // 指定图表的配置项和数据
-        var option = option = {
-  title: {
-    text: 'Rainfall vs Evaporation',
-    subtext: 'Fake Data'
-  },
-  tooltip: {
-    trigger: 'axis'
-  },
-  legend: {
-    data: ['Rainfall', 'Evaporation']
-  },
-  toolbox: {
-    show: true,
-    feature: {
-      dataView: { show: true, readOnly: false },
-      magicType: { show: true, type: ['line', 'bar'] },
-      restore: { show: true },
-      saveAsImage: { show: true }
-    }
-  },
-  calculable: true,
-  xAxis: [
-    {
-      type: 'category',
-      // prettier-ignore
-      data: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
-    }
-  ],
-  yAxis: [
-    {
-      type: 'value'
-    }
-  ],
-  series: [
-    {
-      name: 'Rainfall',
-      type: 'bar',
-      data: [
-        2.0, 4.9, 7.0, 23.2, 25.6, 76.7, 135.6, 162.2, 32.6, 20.0, 6.4, 3.3
-      ],
-      markPoint: {
-        data: [
-          { type: 'max', name: 'Max' },
-          { type: 'min', name: 'Min' }
-        ]
-      },
-      markLine: {
-        data: [{ type: 'average', name: 'Avg' }]
-      }
-    },
-    {
-      name: 'Evaporation',
-      type: 'bar',
-      data: [
-        2.6, 5.9, 9.0, 26.4, 28.7, 70.7, 175.6, 182.2, 48.7, 18.8, 6.0, 2.3
-      ],
-      markPoint: {
-        data: [
-          { name: 'Max', value: 182.2, xAxis: 7, yAxis: 183 },
-          { name: 'Min', value: 2.3, xAxis: 11, yAxis: 3 }
-        ]
-      },
-      markLine: {
-        data: [{ type: 'average', name: 'Avg' }]
-      }
-    }
-  ]
-};
-        // 使用刚指定的配置项和数据显示图表。
-        myChart.setOption(option);
-</script>
-<h2 id="饼状图"><a href="#饼状图" class="headerlink" title="饼状图"></a>饼状图</h2><div id="echarts3464" style="width: 85%;height: 400px;margin: 0 auto"></div>
-<script src="https://cdn.bootcss.com/echarts/3.8.0/echarts.common.min.js"></script>
-<script type="text/javascript">
-        // 基于准备好的dom，初始化echarts实例
-        var myChart = echarts.init(document.getElementById('echarts3464'));
-        // 指定图表的配置项和数据
-        var option = option = {
-  title: {
-    text: 'Referer of a Website',
-    subtext: 'Fake Data',
-    left: 'center'
-  },
-  tooltip: {
-    trigger: 'item'
-  },
-  legend: {
-    orient: 'vertical',
-    left: 'left'
-  },
-  series: [
-    {
-      name: 'Access From',
-      type: 'pie',
-      radius: '50%',
-      data: [
-        { value: 1048, name: 'Search Engine' },
-        { value: 735, name: 'Direct' },
-        { value: 580, name: 'Email' },
-        { value: 484, name: 'Union Ads' },
-        { value: 300, name: 'Video Ads' }
-      ],
-      emphasis: {
-        itemStyle: {
-          shadowBlur: 10,
-          shadowOffsetX: 0,
-          shadowColor: 'rgba(0, 0, 0, 0.5)'
-        }
-      }
-    }
-  ]
-};
-        // 使用刚指定的配置项和数据显示图表。
-        myChart.setOption(option);
-</script>
-<h2 id="仪表盘"><a href="#仪表盘" class="headerlink" title="仪表盘"></a>仪表盘</h2><div id="echarts3272" style="width: 85%;height: 400px;margin: 0 auto"></div>
-<script src="https://cdn.bootcss.com/echarts/3.8.0/echarts.common.min.js"></script>
-<script type="text/javascript">
-        // 基于准备好的dom，初始化echarts实例
-        var myChart = echarts.init(document.getElementById('echarts3272'));
-        // 指定图表的配置项和数据
-        var option = option = {
-  tooltip: {
-    formatter: '{a} <br/>{b} : {c}%'
-  },
-  series: [
-    {
-      name: 'Sugar',
-      type: 'gauge',
-      detail: {
-        formatter: '{value}'
-      },
-      data: [
-        {
-          value: 90,
-          name: 'SCORE'
-        }
-      ]
-    }
-  ]
-};
-        // 使用刚指定的配置项和数据显示图表。
-        myChart.setOption(option);
-</script>]]></content>
-      <categories>
-        <category>Hexo</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
-        <tag>butterfly</tag>
-        <tag>echarts</tag>
+        <tag>hexo外挂标签</tag>
       </tags>
   </entry>
   <entry>
@@ -329,8 +326,11 @@
     <content><![CDATA[<h2 id="插入本地图片"><a href="#插入本地图片" class="headerlink" title="插入本地图片"></a>插入本地图片</h2><figure class="highlight markdown"><table><tr><td class="code"><pre><code class="hljs MARKDOWN">![<span class="hljs-string">图片描述</span>](<span class="hljs-link">图片的url</span>)<br></code></pre></td></tr></table></figure>
 <p>举个例子:我想插入images目录下的goku.png的照片并命名为悟空<br>PS: hexo默认的/目录为source目录、我们需要在souces目录下创建个images即可并把gouku.png图片放到images目录下即可引用<br><figure class="highlight markdown"><table><tr><td class="code"><pre><code class="hljs MARKDOWN">![<span class="hljs-string">悟空</span>](<span class="hljs-link">/images/goku.png</span>)<br></code></pre></td></tr></table></figure><br><img src="/images/goku.png" alt="悟空"></p>
 ]]></content>
+      <categories>
+        <category>Hexo博客</category>
+      </categories>
       <tags>
-        <tag>hexo</tag>
+        <tag>hexo插入图片</tag>
       </tags>
   </entry>
   <entry>
@@ -339,8 +339,35 @@
     <content><![CDATA[<div class='poem'><div class='poem-title'>水调歌头</div><div class='poem-author'>苏轼</div><p>丙辰中秋，欢饮达旦，大醉，作此篇，兼怀子由。<br>明月几时有？把酒问青天。<br>不知天上宫阙，今夕是何年？<br>我欲乘风归去，又恐琼楼玉宇，高处不胜寒。<br>起舞弄清影，何似在人间？</p>
 <p>转朱阁，低绮户，照无眠。<br>不应有恨，何事长向别时圆？<br>人有悲欢离合，月有阴晴圆缺，此事古难全。<br>但愿人长久，千里共婵娟。</p>
 </div>]]></content>
+      <categories>
+        <category>Hexo博客</category>
+      </categories>
       <tags>
-        <tag>诗词</tag>
+        <tag>hexo引用诗词</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>语音线路对接方案</title>
+    <url>/2024/10/16/%E8%AF%AD%E9%9F%B3%E7%BA%BF%E8%B7%AF%E5%AF%B9%E6%8E%A5%E6%96%B9%E6%A1%88/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 密码不对，请联系hlwei2" data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="cfbf498ff0cbf7f1bc7ba2fcfddd6aec3ee0c03d58d3278bdd7fc68241e8f6c4">69007a88d9cf235b1d29ca6e973fdcb5a2afc57dd83d999721122fd41e190bbfbd85849544aa673c531d9d450e310a85f5103a638a163c18dc24bdb3c033c2ea017677a71825406f99c64149232dc2c663287ab62287ddba3fee348a59bd0925cc57387c808ae8a51e3f7f1d051695b0d4b91c9582fa2b9ca83c5c1733b15718fe22efb1a931bb45823b442e55de500ab408082ed9f27a35434e9773ec30e710ed2474b61d3e54fa70cc730e629e3684fd007c898fc1b5173cc44eca7343f1c321957d123c53dfca3c77491554574f5572ceeea0d516f0622aca974a9c699e190596d7832e5e219a8ad9b0ae140a370e24820f657f4049713e7d46818aa7c4a1ceb6eb602a9b63068b8dada8b6ecba0501df79549c25acacbaf5fb0bcb984300447a1418b4c50249cf24e1bfba2a0799205f54d34a9c39863d817ac2d4ff083cf957e4c5b36b18e49c3ff8b6d50d9cb4ea0fe51fa23396255e6de7e504885c84d4bf651d8cac48e39807164809ef1c793267ef6e3b6c2f6eb945c350bc86367bbcfc4e3e9f66923b5ea3e746b11f530872f1b13b7802abb71a800a8f8253b9e8f4bd9b40c7306035a9640e47e7d3f22888c656684f131f489dadd4039341b4a7dbe8267c88907e3445283d2a6535e4445367ab7eba3d81704ef5aa273f1ca518ff835863a4c32e103eb06fd07755c9fe656aa48b81a122c1250afba25ce4952ad93d12c262ff2d4e749e6f344dd1912badba8ec6821989fcc7fe4bc3377731a9e1e942018b0e2aa2006b6f64429392a1c594a16541037d8a875256db29d3ec3238691b224584386c8cae22b4180a4f60bd72f1bf149d1e106cdc9ce911487a38ffaed8b8af5b969beb424ac61c82877e36391518587037c272bec6f9af0304f36fb508c34aca9b5b4b9dbe9dee1cc81525eaaecbe0fd4f3c0a72314624989c5b8a5de5c6ad6826519c3923070eaae01a35902058f27cb3de5e2bc0316b9aaa35fc6f61b74d943823ff24ffd9daada1c06fc9b7cddb6cff1ec1c4afdb68953c288ae4a118c1884aff3f1f98c28224ea35ef541d87c0bcc6dd67235933dfee7babb334bea59d2344e144407d884d40193f1a3a2596372df9547406853dc71b34717e0c19875f80f6029b225ef8463b424504eba44740950a8597310cbb17a300009b3e096e05949bf1f988e83de18cf339c4be5255452402dbac3d69d49971519858f65fbaaf331820aa2e0fbe0a1b546c5e9e963fba22f3ed2fd961747a6fc12abc3979ccc32a151a7cedfa39bd3ac21da355d2826a06e6aa8ba863a8efc916d8eb60860d5797ff47778b5d205f4a2b5f63c5ba884ff9bd7dd5c53068c995531a136bdb8a074042e703d0840df6da8adf0b99ff97dc82d9e9d3f8c7037f5400216a76ec6b6b7e87c7482e7438c6c96cd6641269f99a43cb7ba819e7be6fca761f5355a579d96d71af43275bf62782ead0373c3c521374aac26f812a2f97e1706e2b3718dcf8628ca1da270ff3015dcc4b4d3ff65f0a67cd3f93b757b86769a9e9947b9aad40acfddb647df9c37ca0608fec0a8ebf8e2d8aae81bd610d99cc3d4e041935c4fb5f28f7ac2410955ed972c18fea97503893364524c3df773b703aae3ab90da21a51d8d4aa0de28a64aa81b2cd34f6f51231af7a9b34f129bea350c3613ab0082581710bc1794e9d88662b266e7792acdaf64647afd92de4c6e70b5855c633fc224b2e61e2d91c481848c2a2d8331311b4f4a34dc13fc177c6956b7cc2b4aee924bd77deea8fe86f1342c6db81d8b235fbe6ed4a90d4d261dd21cad848c7160aa499a20f2475c33d9834d6b31389ff6c1a5e80bfccc98ce88038704c9c49762d72e7eafeaf133b4a1b6ab5d3ebffaefc1168b529af47318fdaa01b59de5058cc945b4f19eeffd6256cbbf5dc33e326ed713f6e51e852dccaf49936f6d95ac6c9b23effd8383385f4486f164e864acba76243e788910bf8bdeffc5c08ed17f6a2c513854fc50f6111f3f2d1f5d7dc52d7c98770cdd6f75e5ec8efbb681a80f01d3a8b708092b85c5704caf5111001f94b143f5e767d820369c25f63eec7cac1cd67cb55ef7130e7c16f45f5c41d9404951aa512c9e7a758480f76deaa730299b9676cb09b0ff0f6fee00e91b06b957d07f3bf2ab3f3f0549280547d7e629e981bba7e2d004bf1b6889632d84585cfcabc7503384723239be4b7ef0bfdcb6bb4084f38fe96406b4e7462d3e90229fb93e8aec45b3ac13c8c37ba539eea2335441daa789719ecf45bdea8d83ba1ee613f52d885ffd466932ed637f09b103198919a8fc8bb96787b62ee3181650ba4caf11392cdb76fd74b065cc3cdec68c96359fc0d97275e7ac1690387f745a81634d9da0d70a3cceda1dddca2dd5724b152116751aa31b57d1b6e09a3e13169532d2b09db6ba5dea405433e25088d534760ac081c8d1a7bc1197d92387e7a8b5a6b928264e5eb170161e71e1687809d3b0d959a601809b9b9963b588c4463deb9a6fff33ab6bd684917ee674dc42c870cff596a92ec752bde0a5f5a77caac142d76020af4f73124c68526992944578a24ceada6b2b61a0f518012c3faedc609c7427ca02a7cd240b780c991cc163aca1a04ab913d89a2b4b2ea71406a892e4c85bb592347aa3cc716a6f9365c216434bfd4375b51e09f1bf16df57a23151c6f7c24eee8d34be7cdbff424fe35b18a5e6236ef8e08a974860c0400b598b98bfc8c1e62bb1be219bdefc853b6399090b62a5613ff09eb8d3d7b211ba89c95d637</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-blink">
+      <input class="hbe hbe-input-field hbe-input-field-blink" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-blink" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-blink" data-content="文档已加密、请输入密码进行阅读">文档已加密、请输入密码进行阅读</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>语音通信基础</category>
+      </categories>
+      <tags>
+        <tag>voip</tag>
+        <tag>sip</tag>
+        <tag>呼叫中心</tag>
       </tags>
   </entry>
 </search>
