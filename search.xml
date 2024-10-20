@@ -134,26 +134,13 @@
       </tags>
   </entry>
   <entry>
-    <title>hexo-插入图片</title>
-    <url>/2024/10/15/hexo-%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87/</url>
-    <content><![CDATA[<h2 id="插入本地图片"><a href="#插入本地图片" class="headerlink" title="插入本地图片"></a>插入本地图片</h2><figure class="highlight markdown"><table><tr><td class="code"><pre><code class="hljs MARKDOWN">![<span class="hljs-string">图片描述</span>](<span class="hljs-link">图片的url</span>)<br></code></pre></td></tr></table></figure>
-<p>举个例子:我想插入images目录下的goku.png的照片并命名为悟空<br>PS: hexo默认的/目录为source目录、我们需要在souces目录下创建个images即可并把gouku.png图片放到images目录下即可引用<br><figure class="highlight markdown"><table><tr><td class="code"><pre><code class="hljs MARKDOWN">![<span class="hljs-string">悟空</span>](<span class="hljs-link">/images/goku.png</span>)<br></code></pre></td></tr></table></figure><br><img src="/images/goku.png" alt="悟空"></p>
-]]></content>
-      <categories>
-        <category>Hexo博客</category>
-      </categories>
-      <tags>
-        <tag>hexo插入图片</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>hexo博客插入图表</title>
     <url>/2024/10/08/hexo-%E6%8F%92%E5%85%A5%E5%9B%BE%E8%A1%A8/</url>
-    <content><![CDATA[<h2 id="柱状图"><a href="#柱状图" class="headerlink" title="柱状图"></a>柱状图</h2><div id="echarts9159" style="width: 85%;height: 400px;margin: 0 auto"></div>
+    <content><![CDATA[<h2 id="柱状图"><a href="#柱状图" class="headerlink" title="柱状图"></a>柱状图</h2><div id="echarts6321" style="width: 85%;height: 400px;margin: 0 auto"></div>
 <script src="https://cdn.bootcss.com/echarts/3.8.0/echarts.common.min.js"></script>
 <script type="text/javascript">
         // 基于准备好的dom，初始化echarts实例
-        var myChart = echarts.init(document.getElementById('echarts9159'));
+        var myChart = echarts.init(document.getElementById('echarts6321'));
         // 指定图表的配置项和数据
         var option = option = {
   xAxis: {
@@ -173,11 +160,11 @@
         // 使用刚指定的配置项和数据显示图表。
         myChart.setOption(option);
 </script>
-<h2 id="带有颜色的柱状图"><a href="#带有颜色的柱状图" class="headerlink" title="带有颜色的柱状图"></a>带有颜色的柱状图</h2><div id="echarts9148" style="width: 85%;height: 400px;margin: 0 auto"></div>
+<h2 id="带有颜色的柱状图"><a href="#带有颜色的柱状图" class="headerlink" title="带有颜色的柱状图"></a>带有颜色的柱状图</h2><div id="echarts7226" style="width: 85%;height: 400px;margin: 0 auto"></div>
 <script src="https://cdn.bootcss.com/echarts/3.8.0/echarts.common.min.js"></script>
 <script type="text/javascript">
         // 基于准备好的dom，初始化echarts实例
-        var myChart = echarts.init(document.getElementById('echarts9148'));
+        var myChart = echarts.init(document.getElementById('echarts7226'));
         // 指定图表的配置项和数据
         var option = option = {
   title: {
@@ -250,11 +237,11 @@
         // 使用刚指定的配置项和数据显示图表。
         myChart.setOption(option);
 </script>
-<h2 id="饼状图"><a href="#饼状图" class="headerlink" title="饼状图"></a>饼状图</h2><div id="echarts9401" style="width: 85%;height: 400px;margin: 0 auto"></div>
+<h2 id="饼状图"><a href="#饼状图" class="headerlink" title="饼状图"></a>饼状图</h2><div id="echarts6982" style="width: 85%;height: 400px;margin: 0 auto"></div>
 <script src="https://cdn.bootcss.com/echarts/3.8.0/echarts.common.min.js"></script>
 <script type="text/javascript">
         // 基于准备好的dom，初始化echarts实例
-        var myChart = echarts.init(document.getElementById('echarts9401'));
+        var myChart = echarts.init(document.getElementById('echarts6982'));
         // 指定图表的配置项和数据
         var option = option = {
   title: {
@@ -294,11 +281,11 @@
         // 使用刚指定的配置项和数据显示图表。
         myChart.setOption(option);
 </script>
-<h2 id="仪表盘"><a href="#仪表盘" class="headerlink" title="仪表盘"></a>仪表盘</h2><div id="echarts146" style="width: 85%;height: 400px;margin: 0 auto"></div>
+<h2 id="仪表盘"><a href="#仪表盘" class="headerlink" title="仪表盘"></a>仪表盘</h2><div id="echarts8533" style="width: 85%;height: 400px;margin: 0 auto"></div>
 <script src="https://cdn.bootcss.com/echarts/3.8.0/echarts.common.min.js"></script>
 <script type="text/javascript">
         // 基于准备好的dom，初始化echarts实例
-        var myChart = echarts.init(document.getElementById('echarts146'));
+        var myChart = echarts.init(document.getElementById('echarts8533'));
         // 指定图表的配置项和数据
         var option = option = {
   tooltip: {
@@ -330,6 +317,19 @@
         <tag>hexo</tag>
         <tag>butterfly</tag>
         <tag>echarts</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>hexo-插入图片</title>
+    <url>/2024/10/15/hexo-%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87/</url>
+    <content><![CDATA[<h2 id="插入本地图片"><a href="#插入本地图片" class="headerlink" title="插入本地图片"></a>插入本地图片</h2><figure class="highlight markdown"><table><tr><td class="code"><pre><code class="hljs MARKDOWN">![<span class="hljs-string">图片描述</span>](<span class="hljs-link">图片的url</span>)<br></code></pre></td></tr></table></figure>
+<p>举个例子:我想插入images目录下的goku.png的照片并命名为悟空<br>PS: hexo默认的/目录为source目录、我们需要在souces目录下创建个images即可并把gouku.png图片放到images目录下即可引用<br><figure class="highlight markdown"><table><tr><td class="code"><pre><code class="hljs MARKDOWN">![<span class="hljs-string">悟空</span>](<span class="hljs-link">/images/goku.png</span>)<br></code></pre></td></tr></table></figure><br><img src="/images/goku.png" alt="悟空"></p>
+]]></content>
+      <categories>
+        <category>Hexo博客</category>
+      </categories>
+      <tags>
+        <tag>hexo插入图片</tag>
       </tags>
   </entry>
   <entry>
