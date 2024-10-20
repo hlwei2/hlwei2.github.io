@@ -134,13 +134,26 @@
       </tags>
   </entry>
   <entry>
+    <title>hexo-插入图片</title>
+    <url>/2024/10/15/hexo-%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87/</url>
+    <content><![CDATA[<h2 id="插入本地图片"><a href="#插入本地图片" class="headerlink" title="插入本地图片"></a>插入本地图片</h2><figure class="highlight markdown"><table><tr><td class="code"><pre><code class="hljs MARKDOWN">![<span class="hljs-string">图片描述</span>](<span class="hljs-link">图片的url</span>)<br></code></pre></td></tr></table></figure>
+<p>举个例子:我想插入images目录下的goku.png的照片并命名为悟空<br>PS: hexo默认的/目录为source目录、我们需要在souces目录下创建个images即可并把gouku.png图片放到images目录下即可引用<br><figure class="highlight markdown"><table><tr><td class="code"><pre><code class="hljs MARKDOWN">![<span class="hljs-string">悟空</span>](<span class="hljs-link">/images/goku.png</span>)<br></code></pre></td></tr></table></figure><br><img src="/images/goku.png" alt="悟空"></p>
+]]></content>
+      <categories>
+        <category>Hexo博客</category>
+      </categories>
+      <tags>
+        <tag>hexo插入图片</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>hexo博客插入图表</title>
     <url>/2024/10/08/hexo-%E6%8F%92%E5%85%A5%E5%9B%BE%E8%A1%A8/</url>
-    <content><![CDATA[<h2 id="柱状图"><a href="#柱状图" class="headerlink" title="柱状图"></a>柱状图</h2><div id="echarts7130" style="width: 85%;height: 400px;margin: 0 auto"></div>
+    <content><![CDATA[<h2 id="柱状图"><a href="#柱状图" class="headerlink" title="柱状图"></a>柱状图</h2><div id="echarts9159" style="width: 85%;height: 400px;margin: 0 auto"></div>
 <script src="https://cdn.bootcss.com/echarts/3.8.0/echarts.common.min.js"></script>
 <script type="text/javascript">
         // 基于准备好的dom，初始化echarts实例
-        var myChart = echarts.init(document.getElementById('echarts7130'));
+        var myChart = echarts.init(document.getElementById('echarts9159'));
         // 指定图表的配置项和数据
         var option = option = {
   xAxis: {
@@ -160,11 +173,11 @@
         // 使用刚指定的配置项和数据显示图表。
         myChart.setOption(option);
 </script>
-<h2 id="带有颜色的柱状图"><a href="#带有颜色的柱状图" class="headerlink" title="带有颜色的柱状图"></a>带有颜色的柱状图</h2><div id="echarts5913" style="width: 85%;height: 400px;margin: 0 auto"></div>
+<h2 id="带有颜色的柱状图"><a href="#带有颜色的柱状图" class="headerlink" title="带有颜色的柱状图"></a>带有颜色的柱状图</h2><div id="echarts9148" style="width: 85%;height: 400px;margin: 0 auto"></div>
 <script src="https://cdn.bootcss.com/echarts/3.8.0/echarts.common.min.js"></script>
 <script type="text/javascript">
         // 基于准备好的dom，初始化echarts实例
-        var myChart = echarts.init(document.getElementById('echarts5913'));
+        var myChart = echarts.init(document.getElementById('echarts9148'));
         // 指定图表的配置项和数据
         var option = option = {
   title: {
@@ -237,11 +250,11 @@
         // 使用刚指定的配置项和数据显示图表。
         myChart.setOption(option);
 </script>
-<h2 id="饼状图"><a href="#饼状图" class="headerlink" title="饼状图"></a>饼状图</h2><div id="echarts5300" style="width: 85%;height: 400px;margin: 0 auto"></div>
+<h2 id="饼状图"><a href="#饼状图" class="headerlink" title="饼状图"></a>饼状图</h2><div id="echarts9401" style="width: 85%;height: 400px;margin: 0 auto"></div>
 <script src="https://cdn.bootcss.com/echarts/3.8.0/echarts.common.min.js"></script>
 <script type="text/javascript">
         // 基于准备好的dom，初始化echarts实例
-        var myChart = echarts.init(document.getElementById('echarts5300'));
+        var myChart = echarts.init(document.getElementById('echarts9401'));
         // 指定图表的配置项和数据
         var option = option = {
   title: {
@@ -281,11 +294,11 @@
         // 使用刚指定的配置项和数据显示图表。
         myChart.setOption(option);
 </script>
-<h2 id="仪表盘"><a href="#仪表盘" class="headerlink" title="仪表盘"></a>仪表盘</h2><div id="echarts2746" style="width: 85%;height: 400px;margin: 0 auto"></div>
+<h2 id="仪表盘"><a href="#仪表盘" class="headerlink" title="仪表盘"></a>仪表盘</h2><div id="echarts146" style="width: 85%;height: 400px;margin: 0 auto"></div>
 <script src="https://cdn.bootcss.com/echarts/3.8.0/echarts.common.min.js"></script>
 <script type="text/javascript">
         // 基于准备好的dom，初始化echarts实例
-        var myChart = echarts.init(document.getElementById('echarts2746'));
+        var myChart = echarts.init(document.getElementById('echarts146'));
         // 指定图表的配置项和数据
         var option = option = {
   tooltip: {
@@ -320,19 +333,6 @@
       </tags>
   </entry>
   <entry>
-    <title>hexo-插入图片</title>
-    <url>/2024/10/15/hexo-%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87/</url>
-    <content><![CDATA[<h2 id="插入本地图片"><a href="#插入本地图片" class="headerlink" title="插入本地图片"></a>插入本地图片</h2><figure class="highlight markdown"><table><tr><td class="code"><pre><code class="hljs MARKDOWN">![<span class="hljs-string">图片描述</span>](<span class="hljs-link">图片的url</span>)<br></code></pre></td></tr></table></figure>
-<p>举个例子:我想插入images目录下的goku.png的照片并命名为悟空<br>PS: hexo默认的/目录为source目录、我们需要在souces目录下创建个images即可并把gouku.png图片放到images目录下即可引用<br><figure class="highlight markdown"><table><tr><td class="code"><pre><code class="hljs MARKDOWN">![<span class="hljs-string">悟空</span>](<span class="hljs-link">/images/goku.png</span>)<br></code></pre></td></tr></table></figure><br><img src="/images/goku.png" alt="悟空"></p>
-]]></content>
-      <categories>
-        <category>Hexo博客</category>
-      </categories>
-      <tags>
-        <tag>hexo插入图片</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>hexo-插入诗词</title>
     <url>/2024/10/11/hexo-%E6%8F%92%E5%85%A5%E8%AF%97%E8%AF%8D/</url>
     <content><![CDATA[<div class='poem'><div class='poem-title'>水调歌头</div><div class='poem-author'>苏轼</div><p>丙辰中秋，欢饮达旦，大醉，作此篇，兼怀子由。<br>明月几时有？把酒问青天。<br>不知天上宫阙，今夕是何年？<br>我欲乘风归去，又恐琼楼玉宇，高处不胜寒。<br>起舞弄清影，何似在人间？</p>
@@ -346,26 +346,63 @@
       </tags>
   </entry>
   <entry>
-    <title>呼叫中心线路对接方案</title>
-    <url>/2024/10/16/%E8%AF%AD%E9%9F%B3%E7%BA%BF%E8%B7%AF%E5%AF%B9%E6%8E%A5%E6%96%B9%E6%A1%88/</url>
-    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 密码不对，请联系hlwei2" data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="21c63614c5b0048e1945425696746a99c062639a052a7164057235ca47769f7c">69007a88d9cf235b1d29ca6e973fdcb5847c304d2987821c443b07bdca1e9c25eefde13fb4a438298de48085a5f67e82a9ca4b334e0347ded92cb04cc0da5eb71abeeda32ecc541f522bc170a2a4845290abc860707327b4e7739b22d0b3039bb51c0916c94f75359fd51ef13b3a177ed7a2158dbb5e077d3dbb8680ea97af2f9943e040f55a2d68772079f60ebb6778cd6c3b98df5857bc4b31489518c3e8eebc5b16c08d4cf690b7998cbded66c249476dbbd8c7b237b53710319b39495714ff0360fd3be2c159337e79c5ba3fbc38249d03ea8de7ee40120822022e47f2210ade66910cd70b90549ecb0b5d96909236215f32fe200d23b97b935345f99650548053ab735d964dc93b8d08cd67712dc7b1c9cf9f5396d0dae4f56da3269cf1e99b3331f381979254370309cab879194dc4b15526130bfbb0d402f59c4f8b1ca2011dcb082519c3ef24b803da97e5b31835d124810359fecee94055d17b373b287ecbfc8e6dcebba2d79eef5f40e0d6044a5031912e37a58a61027a33aa8ef6f4a0652f018a2a6d44fb99fd0bec81bc16d198b1d6d8992938f49803fb372e8854d1c017de862690b9868609bb69b23cb3b5483ef3915ab0f1075493c7ff69168f95728c0d161a9f9c3aea072c37a448ccba7841b1ac0ba30ae60983ac69e8ddad462141548151652c178cc063ee2816fc7d140f193a584224ee22c7674c573f1bc78cefd4cc1fc5ab94ad7c89fc8398395487fbe7a36a05365ccc345c385b6481a01a89efd418e82695d8ac396259c7d79d3d918b432543ee7bca50c7e97b525c2b1fbc177ce8e8d1aab1bd0b679493451d53daa0a1a3e4823f772e8ca5e7152c1f96ace24809959810a243d42fdf552c33c6a3e113bba1c9539de2c2c90978d228db64872d2729561576cdad8b464d96eba682efa768b0e1ea2832f50d21390aa5a12aabe02d967ac59face7234c26aeb628d5642d608e2a3829b5a4bd6c88618fc27119f3f077971b6b261d14197e7be7a9364621f19c4d7cfb8d03e2b4275864a039a81a08dd0931f6e6ce130b75953e6960b8287d2d4ef00ee1284869fc880db89f4afe7820eafb72f452b30cd48fe7802f28136c2bae89d3e0851048e8dc7f829179f8970eea7e4e9294744feef706af479afd49961e3e1dc415ff6752d4b853ec617ef5f5c402c21872912654c92e3e4b0875bdceaeba98c64137a2fecd2e9d3d6777ec8c276555031ef7fce2c243cc4c3dcd5b03d035a1ae32debe3ef171838d4925352a5afb1662de3f26115779a776b993e3d0c5682112118fa8002979f06a69bb8808721f9245242eec4455ab0d81206705ba223a19218b5e55a89ea2ddf2e049a565b9f95055fa07c6dfe78be0c6ade3ba9cf64c54284757fb865b9bc70b5d5c0ab31959090733d01a2b1e5088bb814dca56d98826596f2d01cc9eb42bf93eb708e50e0261311c2f89dc8a3164f9afe6b3dd7b8a95a142a22fab640a27b766a3045064d17a8ea0e4713535a264dbb82a123ab8dc8e77fff4a69a6fe1d35e0be3f0a833734970e58d1874042b86b9a214ec9eb8a03c24496d045094ff18d88e3dd8f9687caddfb4fada5848612ac3821a703c478e0eba6edc64957ac93b04931a6153eeaa14f86735063b9e511d9e8d7b88bd05d40a4cdf6bc16c89d96c8b5552bafa22d1c2cff54bef5acb456fa14a4b823f54edea1ff3d1ad07e908315852bb8864ad2f93135e9ffa00497917aaab7c833b49281e98b9c04dd2e61213ce01ecd535479e5282b41df20fd9357d4c6dc619c456fe0f74ef683caa99fb60e253510e078f61d77863ba7816342da8ea24f04e5a13bc899c445414928b9fed360e4af1e0a2bb528d9ac654611a72db4a4d777bd8c5db7403be5b4f2dd23756a11d3b50767441ca6ee1c5cce221e59e455765b9cd287b533668383b39b3e27f6eafab2a8d86425b4d905ca490e3dc323bf252dd7c770d70f3fe703b54a337975c2130e2100b30aeb06aaebd6d67b7aefb13fabbed7dd48f06fc7384fdd5109cb9309200a48bd2fea0f6367f3cd5312321fe2286effb1f28e9717088171a6ca56c3324f9914c99b299e51d88ad59c8aa0a4b970df0f628d43cb6ff9a139f69872a0b03cee111f9322e950b9425556ffec628f27f76a62699fb24160c4dac869212e665f00c85847c4ee23a95ed04fb51ab9cdf52d36cb39ff3934b9a1468d0c474a4e500111c5c56df044f009fce9bc785d37ae7ffa58806434677d00a3cc37eef47bd784fcbd47d3e1b25710e28bf4f95aad64a167ec31dbd366a6217439ea70fba45c358b2a525411ec75c1d8458346b0f4f7187bc9c211ed1dcc855dc083060cbc0f50ea3420b8ad8415e6a7601f40997bb533b0d45c104800bca0e45eeb40034b799bc65d54d9ee360cd83380168c7c3430c6013a329dd11374be75ef26421f109054b79d157c603a7d8bdbd114584356da1f942083a19f18e85c0f0100caaf9e16ac71448877a37d83b8f9870469af9b16f2ed49b114037cc92be7fbddbbc1b31f104a6f2dd27e208d993734f1b2d742c0df373752c92ec9466fcfa9b680350226289803e1a2d325a15c37476f0e5712a838679b6e10819f6d3b1529c0e94ade7b2bf30d5ee04ac0ee1815f291b0bbf1a5ab40b23d79aa48ba4d502a2b9067ac5dd92a41e71010ac5707db98422276da60d0ba085b45de4c0fcc8a59adc191db67cdfb18bcb2fcfe3e6fe1e30d849ce9a1c94bad299f62817decad7385c3304c710e3a8f9b5a768be80b5c7b5c983c713beffbc945047d73782d513479b4d179d38e6981a06d5dba7a7e1a487ce4644a386cff12598c042c8adf6a555cfb342e39fd19dd9217475015f54b78627c987aa7fefcb1ef1762d57f272e38ccd7d70e00a81f289c8d100b1a31ab568df877dfe20163e39c8df662ed9360dfda84f774249ea96b0bb71e93e085d1474d3e6692943fd2f2124225e18eac4369fdfdc8067b0c460edf74d06d55cb3af6309b21686af28227dabb618059e98b801c2d66d4d697d47dce33b5ff49b0de1dfdbe5e5fa9d01c44c5358555fec12c46dd8489e5e7966703ca2fb6b72e8e28cf65a4fb728e10e11e62ccdfbbbf8a84a7dac1578a20bb467e7ac41f84b6bcd4cee5664d0609d4896ad414a2aefc76993a5ef7cdd79a02cb4082bd1ca95cd45ca6b758f48612ca426cf46e44ccef89631dc03502bafd2698fdcefe54e4adcf6d322c770ec456176c68010f03ddbec409511fe384e80fd6e49a4bb6794ca2a33bfa25d9aecf515af008d046b87d940c335a2c81ffbd64396268ff86d67628b3f9bc7aa11e01e754e0f2677e4a54eb2684bcdc586ba86f90f601fcec2f517f320effb90380a560b8bc3f3b4209d47642f432bd4ad990f221a58855eb744e3d88f04db7ed6ea9a8aad877d91537bcaff84fb05e0f6a0523d68ea8e8a44a0ff7e9f4f44f0bd1bc558583d894fe4eac053e3dabb806f0e03c765a8be459c96e390cb77709bfe8961bca92b716ee8415d387f40d4222aa1c2843ac729ccb28aab8ac0fd2917e51bbdb4a3ec9fea0fcaf5e25052cc0dd78b94cb993899af4f38d3ad04f94163e9cc6a5326f7fd10c754503c2cc946d85fe23a2233a6fa70e8119b09cd6a0f672743751246daf2970ed25b092d34fd66e171a841ea93c351f8ed6f0811160e8a40fc0b182ba3549874be5e577c93136f4a943473ebfcfc5c2ffd59ae488a1190c65602308935162144755aeb4e37fc001c63c3b9853cf5ec793f09c1a1b805b2d0e1e0441bc8237a1f2b1bc7990904805e238e2906df41449a62ca7a8a2700f4a4f70bc3a6d27f646789f9431b98c074dfdc43ea8c3eb6754f18de7a1b67f7c52e3e0a08b7dd01feede910e47213ee09e1d3ce75927b5051e4e7495f41735f356a8b6ab23c7400a2e32d79eed5e46b557fbc09d3d1df96ad1052e9cc05ff544afcd76135fd3afb4aabde6befde6d816d3a9741a29774d291bad00280ff2c40fd081b88d405a5dd27fb4bb1e4119c4ea2bcebc15432045b81e4722b95191d63567a2eb5550522db99818f9bd115a07e77adb62477dd8983eea45d76669b914d54389024c5af8097653cfc6651a7007ddd76fe62c0ca1889f016a1b9040eb462413082b354ca006eae301052aa0ac3ac9253eb3db585905a2268688c3eb92ed4777143bfc1b3816958d9d3193f4a57879df1f60260f5833d00f4e6989ac34b0f7dc7eb27737be25cb35dbd802bb9ca58c0c18c6bdb15c7a45c1c013c09205ace4a4c81ac667e0b7190c3798188b5b10133fcbcf1998ac679d8cb9cf73d8e87cc000294cb32870b6b3aa45442ac79cde9d923e9b46f3e59f81c892e6febe94082e2311299433da0461afb0bd6fd9fc85124014e92b8a4d11422ce51be87c478408fa00e674088a30852e17d4084d0b01f30c1e77c81cc4e3db0d5a316a745e096470b03fffa89ff5b76523a3cc007e7b393d70267fe2681e08352e696accc876c874bfd1dd10e10f324c4d093569f2a95b25d58f701bf09d4c1c8670a83878a831dc8d4bc35fe7c637163d4ecc040475b5413277a15c15d04d60238b9cac6cb7e2f80704b2ec997fd5bb9b71013bc3fb7225e3135467cf37eabd9164f004893ef719b7b6459954c30344a5fbd88fab4455ef0a040c1a0362d7433274c06979ab54fa4972735db64e1fcf1ed9f920efa74fd61c12faca7a77fb6bca8293df5c6cb114a7e344f75286997d7fb978b703c8b6f28331c06d4d57d7aeea94b0dcdb7bfce7749ed59fa59f1163b3b21d5cfa21538dfc9c56b798a46e2c799b8b2ee6769d852ad37bc7f8c8e71e0bf767da64bc9c427b3b9cc962572660e40f2c697999e1cf90bd0bd6c436a61dfd75934c7b25e1f79bf3392aa9a8b37c156b599370a6250251e35aaced750a86be309f69ce6164214e233ddfb386e40c2e2f0c0b82321f10daacdcf82dc1e07f2a6d6cc452840e1cdc2a9d8dfa9f77ad3f5e851fc9f4cd3853054b3aab4fcb8af9fc4e8171622bdd96445610dc411ad7d7fddbd11177a792fa6d8d02bd2b81c9451bc4f2e745b5734d80b3001950ea8de34b821cc3969b8b7e2843b274331bd2ca317f31b5712d600804d1237f1f23c16c2a2427baff0caf8e2ebaf7724647707acb8f1fed24a6f23d30d6ed9340908be24a3421a7fb3041cb298e89b3ea36984ff764f83129d36df0de46314afac0054619248160925782f154d3ecfec14056e70c10cd8d3e094ae612b6f9da6991b40e6e774fce458f2bc7021ef6bca16ade59b8e82391a3f55970c527018b35907be7a18abf37c8552e3df65ad8d6ed4c2133faff0b1019643e2475617ea75b43bf4e995e20c179268dd40a52d33a1564d74e05f3ebb2b07b2316ee1a6b7420d4b96efeaf33e79c7d4ca4c478d5f56f0b642291489d37120cb9ff2dcc2a2cd2824ec150604067359fae75da244e0466a3c65f468df23b5aeaa9abb95385eee79cd626626d2ea9308db0df87106a901c2c8faba684da9edd1668eee87da30ab0d0905083f1c69e6422498e9d20d19099261446e2be2f21deb796a8c5d1bd0afbcd1d8978dfd5315f5cc85bd91c8f0095aca3e3752c5a5021416d62cbdcb7a611aa75f7f0ff72a77e1351434433178304d36815afc8490cfba0637f43ed6409f2f2cf6228f5caa818ded28c4ef65e85f90ccddae078e17d3a92ea5ee8b24dbbb97da84de0e659d1cbd1b7146bbdf56b2d658499f64a4a3b2150971f7975f5d25f384db508142a9b64c54ab2af6da83d607c12fd97d6b99bd848b8daf7430458bf16497b2e41d0feebc002a4c6ce7d86d8c9d69858bfa72291ed6a8c9e464b816e7f930e6009198c3586cc9558626dfac941976592b8f9768d192aea1badb3e73eec1d000782fd1a204a846fcfe70485eda39585071ede4dc39f78e41202278b43a37e716b095321e4c0a5d5c960271bc83e2ff88028fa6e04790af692b1baf3edf8301d8204608c0ac6a271e44174eb37e82a09ac7e71bc277156f62e1352cde1748505fa2b0f90ae0ec411dbe53d6d7ea582f02ab171fd0e0c7d9f11b85f39b01f2ed80f3b60bd584ce23b799700837a4e6ea3170c4295b5bf941b2fe57829afc6c210adf69ebe838da1fbe91bd613f4b65e80f21df7edc91f1297d2c1029392f8b03f19491aac3fd7258cb4c4bb44128e66dfda5de7eccfb27b6a2bd5f048307420d7dcb5b1f6b57e1b4b955d3c32ce5b270eee726a6f954c17c1be889af402e8c3d70628ce011265236687fd5c57ff61eee8a43b13bca845e4e1e3908826f9dad25996bcc641bd9cf2e300bfb64fbf1287db4d24345d92be73ecabcb51f64a6d09d029d6720b7b54a0fadf1926e22b975dff369adb4e7d95eae0d5c291e2a831dd1c246a43ae0f2fdd33602c2e37eefab7ca4dd6db695e1371331e750bea312f5c811922dfb33c4cc3a41daf6106cd41570028b02f45af85a69cee9b8f2a953742a1aacbbc63a5468cfd2c225b3ade9643e6d01f9af3c802a3f5022f42515652a9451eb349e2884ed96580243d6c49e033518583d198eadbd310f2f7ca7a33fd7d9e29634d1616df83c3b839e36b82445ca052c9c6e410d496b3f9878a5bc3092a89affbd7775190a852fd023cd3c6a32f87bc85c894151108c376ae7ffaab4abb2e0bdf657316e47fd884b4f6f23229c8673f80fee37a99c7ae55d64aa4242151eb38b91656b29aa77e939fb539ff7f5d769d68561ac0e96fd7bb9e84fecb36728751918e218f8cf887804b00cc0bb6e32c573bc6dede9689863e32ee1c9fb8f56b99543b5e2fe9b18b3220f74a0cb6fbd4858f297d13445abda659454b64f5fca8d6058f5a65fe1cb313d293b08c84de78d67aa88f7e003603dff367ad80c6e4f704beb426680cde276633246c9029b354483ea7d67e3097c7597ad86d884fa0c2f5705a5fe8f2c722653f791227eee7339c1963e2bbd161596c8e8f92913bc1660c97453a2f7fc40130ce6b216e78e65b5244b72faa7660a29441e25d40f2f22fe47f211187836178e0b28c5b490021228ee5b5c28ee3b1ddd9cd69cff2bd6ccfdc9c93cfdce3035fb572219b7eefbc46c0b81010fc438836e2dad3f3f315a351f1263f9e7a9945c04eb67e05a9417434f092ce42174ea08503005e8b75e700b6f26d87494df910b6959bcd09cc5aabc528e0866707520d60a4f3a5a6e5d6b71f1159c0df18061687039c437726cb92576d925d2c08d3ac6bcef00d923114f49170439ca582cff6d3eafec65b1d8d3aba4118e4e908e0711e64bb48e1b9d5e98d456d0f61b96aa83dca8033bb22c5b63836f3b6eab125c9b2477304a034a573bc36ca7cbd38b13aa79cd6d3cd84606418a915f49daf33769bcc76593300ce6071dc1d7c993a587e3f3e1a1bf1e4c6b1fd8a7d52f1829065b968ac258963c03cddd644ca4d602cd7d062bcd44d3722825de92c0eb3829234e71c2255ac4c7f530ae60e5d1b66037e23cd43113664a0f18d2d945c266c8a1950af6bef71259b67fe6d6c89d2cae5b457687f88cadfc1a6779f935441ff9a7a1e087a3cac740cd06c0899e335bb63262613e2a44f0d9b487a0cbf4723b6c85593bc6b174d54e37cc22d013987e47b8a414f0fa6ae3ab87e13496884df761e037f9a068455d3eac571938eeefd442b2ec72b4650fc36a120dc30df5bd5199d50da6dab22122660d79f1262ac495e93c628756193f9cd750c56e38d75c18ef9781f233d60ab7491140571ab97f6f8f540af0450cb0116fa6686df605360767195e080b18da71ed9c82b8f9f642969a723bc2aa1398e159f86f015e15d6</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-blink">
-      <input class="hbe hbe-input-field hbe-input-field-blink" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-blink" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-blink" data-content="文档已加密、请输入密码进行阅读">文档已加密、请输入密码进行阅读</span>
-      </label>
-    </div>
-  </div>
+    <title>呼叫中心简介</title>
+    <url>/2024/10/16/%E5%91%BC%E5%8F%AB%E4%B8%AD%E5%BF%83%E7%AE%80%E4%BB%8B/</url>
+    <content><![CDATA[<div class="tip success"><p>中国号码管理部门主要包括<span class='p red'>工业和信息化部信息通信管理局（简称工信部）</span>、国家市场监督管理总局、国家药品监督管理局和国家知识产权局 。‌这些部门协同工作，负责管理中国的号码资源和相关服务。</p>
 </div>
-<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+<div class="tip "><p>工业和信息化部信息通信管理局负责<span class='p red'>电信和互联网业务的监管</span>，包括<span class='p red'>电信网码号资源的使用和调整审批</span></p>
+</div>
+<h2 id="什么是呼叫中心"><a href="#什么是呼叫中心" class="headerlink" title="什么是呼叫中心"></a>什么是呼叫中心</h2><p>呼叫中心<span class='p blue'>（‌Call Center或Client Service Center）</span>是一个专门用于管理和处理大量电话呼叫的集中化客户服务系统。它是一个组织或企业内部的部门或外包服务提供商，致力于通过电话与客户进行沟通、解决问题、提供支持以及进行营销等活动。</p>
+<h2 id="呼叫中心的发展历程"><a href="#呼叫中心的发展历程" class="headerlink" title="呼叫中心的发展历程"></a>呼叫中心的发展历程</h2><p><span class='p blue'>‌呼叫中心</span>最早起源于20世纪30年代的<span class='p blue'>北美</span>，最初的形式是在 <span class='p blue'>民航业</span>和<span class='p blue'>旅游业</span>中使用的电话服务热线。‌ 1956年，<span class='p blue'>美国泛美航空公司</span>开通了世界上第一个具有一定规模的<span class='p blue'>24小时服务</span>的呼叫中心，为客户提供机票预定服务‌。</p>
+<p><strong>呼叫中心的发展历程可以分为几个重要阶段：</strong></p>
+<div align="center"> <img src="/sugar/img/callcenter01.jpg" title="呼叫中心发展历程" /> </div>
+
+<ol>
+<li><strong>传统呼叫中心（1970-1990年代）：</strong> 传统呼叫中心起源于上世纪70年代的<span class='p blue'>自动呼叫分配（ACD）系统。</span>在这个阶段，呼叫中心主要使用电话交换机和自动呼叫分配系统，为客户提供基本的电话支持和服务；</li>
+<li><strong>多媒体呼叫中心（1990-2000年代）：</strong> 随着互联网和计算机技术的发展，呼叫中心开始整合多种媒体渠道，如电子邮件、传真和网上聊天，以满足不同客户的沟通需求。此时，呼叫中心的服务范围和功能逐渐扩展；</li>
+<li><strong>云呼叫中心（2000年代至今）：</strong> 随着云计算技术的兴起，云呼叫中心成为一种更灵活和可扩展的解决方案。云呼叫中心将传统的基础设施搬移到云端，为企业提供更高效、实时的客户服务和更多的功能扩展选择；</li>
+<li><strong>智能呼叫中心（现代）：</strong> 随着<span class='p blue'>人工智能</span>和<span class='p blue'>大数据技术</span>的发展，呼叫中心开始应用智能化技术来提高服务质量和效率。通过<span class='p blue'>机器学习</span>、<span class='p blue'>自然语言处理</span>和<span class='p blue'>语音识别</span>等技术，智能呼叫中心能够实现实时语音分析、自动回答问题、智能路由和预测客户需求等功能。</li>
+</ol>
+<h2 id="呼叫中心的核心功能："><a href="#呼叫中心的核心功能：" class="headerlink" title="呼叫中心的核心功能："></a>呼叫中心的核心功能：</h2><div align="center"> <img src="/sugar/img/callcenter02.jpg" title="呼叫中心核心功能"/> </div>
+
+<ol>
+<li><strong>IVR自动语音导航：</strong> 能够有效的分流客户，从而提高通话的效率。除此之外，通过IVR自动语音导航还可以针对不同时间来电启动不一样的服务流程。</li>
+<li><strong>来电排队功能‌：</strong> 在高峰期，系统可以自动排队，播放舒缓音乐缓解客户等待焦虑，同时支持自动留言功能。</li>
+<li>‌<strong>全程录音功能‌：</strong> 通话录音用于智能质检，确保服务质量，并在需要时作为证据。</li>
+<li>‌<strong>智能外呼功能‌：</strong> 通过预设的号码列表进行批量自动拨号，无需人工干预，大幅提高了外呼效率。</li>
+</ol>
+<h2 id="呼叫中心的分类"><a href="#呼叫中心的分类" class="headerlink" title="呼叫中心的分类"></a>呼叫中心的分类</h2><p><strong>在实际业务情况中，不同的呼叫中心可能会具备多种属性，按照呼叫类型分类如下：</strong></p>
+<ul>
+<li><strong>呼入型呼叫中心：</strong> 这种类型的呼叫中心不主动发起呼叫，其主要功能是应答客户发起的呼叫，其应用的主要方面是技术支持、产品咨询等；</li>
+<li><strong>呼出型呼叫中心：</strong> 这种类型的呼叫中心是呼叫的主动发起方，其主要应用足市场营销、市场调查、客户满意度调查；</li>
+<li><strong>呼入+呼出混合型呼叫中心：</strong> 单纯的呼入型呼叫中心和单纯的呼出型呼叫中心都比较少，大量的呼叫中心既处理客户发出的呼叫，也主动发起呼叫。</li>
+</ul>
+<h2 id="呼叫中心系统架构"><a href="#呼叫中心系统架构" class="headerlink" title="呼叫中心系统架构"></a>呼叫中心系统架构</h2><div align="center"> <img src="/sugar/img/callcenter.jpg"  alt="呼叫中心系统架构"/> </div>
+
+<p>一个完整的呼叫中心系统可以大致分为3个部分：<span class='p blue'>线路硬件部分</span>、<span class='p blue'>呼叫中心软件</span>和对应呼叫中心的<span class='p blue'>业务系统（应用）</span>，三个部分相互配合，通过信息的传递与交互，实现呼叫中心的正常运营和高效工作。</p>
+<ol>
+<li>线路硬件部分负责呼叫的接入和传输</li>
+<li>呼叫中心软件负责呼叫管理和处理</li>
+<li>业务系统（应用）则提供必要的业务支持和信息，并与呼叫中心软件进行数据交互，从而提供满足用户需求的全面服务。</li>
+</ol>
+<h2 id="呼叫中心的工作原理"><a href="#呼叫中心的工作原理" class="headerlink" title="呼叫中心的工作原理"></a>呼叫中心的工作原理</h2><p><strong>呼叫中心的工作原理主要包括以下几个步骤：</strong></p>
+<ol>
+<li>‌来电识别与分配‌：当客户的电话呼入时，系统会进行来电号码的识别，并根据预先设定的规则将来电分配给相应的客服人员。这个过程类似于机场的航班调度，确保每一通电话都能准确无误地被处理。</li>
+<li>客户信息管理‌：在通话开始时，系统会快速检索并展示客户的历史信息，如之前的交易记录、服务请求等。这有助于客服人员迅速了解客户的背景，提供个性化的服务。</li>
+<li>‌通话管理‌：系统会对通话进行实时监控和录音，以确保服务质量并进行后续的数据分析。同时，系统还支持通话转接、会议通话等功能，以满足客户的不同需求。</li>
+<li>‌交互式语音应答（IVR）‌：对于简单的查询或操作，系统通常会提供IVR服务。客户可以通过按键选择不同的服务选项，类似于在自助餐厅挑选菜品。</li>
+<li>数据统计与分析‌：呼叫中心系统会根据收集到的数据生成各种报表，帮助企业分析客户服务的效果。这些报表可能包括通话时长、等待时间、解决问题的效率等。</li>
+</ol>
+]]></content>
       <categories>
         <category>语音通信基础</category>
       </categories>
       <tags>
         <tag>voip</tag>
         <tag>sip</tag>
+        <tag>ivr</tag>
+        <tag>nlp</tag>
+        <tag>tss</tag>
         <tag>呼叫中心</tag>
       </tags>
   </entry>
