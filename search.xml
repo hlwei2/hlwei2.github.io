@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>磁盘管理LVM详解及LVM常用命令</title>
+    <url>/2024/10/08/LVM%E7%A3%81%E7%9B%98%E7%AE%A1%E7%90%86/</url>
+    <content><![CDATA[<h2 id="什么是LVM？"><a href="#什么是LVM？" class="headerlink" title="什么是LVM？"></a>什么是LVM？</h2>]]></content>
+      <categories>
+        <category>Linux操作系统</category>
+      </categories>
+      <tags>
+        <tag>linux</tag>
+        <tag>LVM</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>hexo-外挂标签测试</title>
     <url>/2024/10/03/hexo-%E5%A4%96%E6%8C%82%E6%A0%87%E7%AD%BE/</url>
     <content><![CDATA[<h2 id="行内文本样式-text"><a href="#行内文本样式-text" class="headerlink" title="行内文本样式 text"></a>行内文本样式 text</h2><ol>
@@ -122,15 +134,16 @@
       </tags>
   </entry>
   <entry>
-    <title>磁盘管理LVM详解及LVM常用命令</title>
-    <url>/2024/10/08/LVM%E7%A3%81%E7%9B%98%E7%AE%A1%E7%90%86/</url>
-    <content><![CDATA[<h2 id="什么是LVM？"><a href="#什么是LVM？" class="headerlink" title="什么是LVM？"></a>什么是LVM？</h2>]]></content>
+    <title>hexo-插入图片</title>
+    <url>/2024/10/15/hexo-%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87/</url>
+    <content><![CDATA[<h2 id="插入本地图片"><a href="#插入本地图片" class="headerlink" title="插入本地图片"></a>插入本地图片</h2><figure class="highlight markdown"><table><tr><td class="code"><pre><code class="hljs MARKDOWN">![<span class="hljs-string">图片描述</span>](<span class="hljs-link">图片的url</span>)<br></code></pre></td></tr></table></figure>
+<p>举个例子:我想插入images目录下的goku.png的照片并命名为悟空<br>PS: hexo默认的/目录为source目录、我们需要在souces目录下创建个images即可并把gouku.png图片放到images目录下即可引用<br><figure class="highlight markdown"><table><tr><td class="code"><pre><code class="hljs MARKDOWN">![<span class="hljs-string">悟空</span>](<span class="hljs-link">/images/goku.png</span>)<br></code></pre></td></tr></table></figure><br><img src="/images/goku.png" alt="悟空"></p>
+]]></content>
       <categories>
-        <category>Linux操作系统</category>
+        <category>Hexo博客</category>
       </categories>
       <tags>
-        <tag>linux</tag>
-        <tag>LVM</tag>
+        <tag>hexo插入图片</tag>
       </tags>
   </entry>
   <entry>
@@ -147,90 +160,13 @@
       </tags>
   </entry>
   <entry>
-    <title>呼叫中心简介</title>
-    <url>/2024/10/16/%E5%91%BC%E5%8F%AB%E4%B8%AD%E5%BF%83%E7%AE%80%E4%BB%8B/</url>
-    <content><![CDATA[<div class="tip success"><p>中国号码管理部门主要包括<span class='p red'>工业和信息化部信息通信管理局（简称工信部）</span>、国家市场监督管理总局、国家药品监督管理局和国家知识产权局 。‌这些部门协同工作，负责管理中国的号码资源和相关服务。</p>
-</div>
-<div class="tip "><p>工业和信息化部信息通信管理局负责<span class='p red'>电信和互联网业务的监管</span>，包括<span class='p red'>电信网码号资源的使用和调整审批</span></p>
-</div>
-<h2 id="什么是呼叫中心"><a href="#什么是呼叫中心" class="headerlink" title="什么是呼叫中心"></a>什么是呼叫中心</h2><p>呼叫中心<span class='p blue'>（‌Call Center或Client Service Center）</span>是一个专门用于管理和处理大量电话呼叫的集中化客户服务系统。它是一个组织或企业内部的部门或外包服务提供商，致力于通过电话与客户进行沟通、解决问题、提供支持以及进行营销等活动。</p>
-<h2 id="呼叫中心的发展历程"><a href="#呼叫中心的发展历程" class="headerlink" title="呼叫中心的发展历程"></a>呼叫中心的发展历程</h2><p><span class='p blue'>‌呼叫中心</span>最早起源于20世纪30年代的<span class='p blue'>北美</span>，最初的形式是在 <span class='p blue'>民航业</span>和<span class='p blue'>旅游业</span>中使用的电话服务热线。‌ 1956年，<span class='p blue'>美国泛美航空公司</span>开通了世界上第一个具有一定规模的<span class='p blue'>24小时服务</span>的呼叫中心，为客户提供机票预定服务‌。</p>
-<p><strong>呼叫中心的发展历程可以分为几个重要阶段：</strong></p>
-<div align="center"> <img src="/sugar/img/callcenter01.jpg" title="呼叫中心发展历程" /> </div>
-
-<ol>
-<li><strong>传统呼叫中心（1970-1990年代）：</strong> 传统呼叫中心起源于上世纪70年代的<span class='p blue'>自动呼叫分配（ACD）系统。</span>在这个阶段，呼叫中心主要使用电话交换机和自动呼叫分配系统，为客户提供基本的电话支持和服务；</li>
-<li><strong>多媒体呼叫中心（1990-2000年代）：</strong> 随着互联网和计算机技术的发展，呼叫中心开始整合多种媒体渠道，如电子邮件、传真和网上聊天，以满足不同客户的沟通需求。此时，呼叫中心的服务范围和功能逐渐扩展；</li>
-<li><strong>云呼叫中心（2000年代至今）：</strong> 随着云计算技术的兴起，云呼叫中心成为一种更灵活和可扩展的解决方案。云呼叫中心将传统的基础设施搬移到云端，为企业提供更高效、实时的客户服务和更多的功能扩展选择；</li>
-<li><strong>智能呼叫中心（现代）：</strong> 随着<span class='p blue'>人工智能</span>和<span class='p blue'>大数据技术</span>的发展，呼叫中心开始应用智能化技术来提高服务质量和效率。通过<span class='p blue'>机器学习</span>、<span class='p blue'>自然语言处理</span>和<span class='p blue'>语音识别</span>等技术，智能呼叫中心能够实现实时语音分析、自动回答问题、智能路由和预测客户需求等功能。</li>
-</ol>
-<h2 id="呼叫中心的核心功能"><a href="#呼叫中心的核心功能" class="headerlink" title="呼叫中心的核心功能"></a>呼叫中心的核心功能</h2><div align="center"> <img src="/sugar/img/callcenter02.jpg" title="呼叫中心核心功能"/> </div>
-
-<ol>
-<li><strong>IVR自动语音导航：</strong> 能够有效的分流客户，从而提高通话的效率。除此之外，通过IVR自动语音导航还可以针对不同时间来电启动不一样的服务流程。</li>
-<li><strong>来电排队功能‌：</strong> 在高峰期，系统可以自动排队，播放舒缓音乐缓解客户等待焦虑，同时支持自动留言功能。</li>
-<li>‌<strong>全程录音功能‌：</strong> 通话录音用于智能质检，确保服务质量，并在需要时作为证据。</li>
-<li>‌<strong>智能外呼功能‌：</strong> 通过预设的号码列表进行批量自动拨号，无需人工干预，大幅提高了外呼效率。</li>
-</ol>
-<h2 id="呼叫中心的分类"><a href="#呼叫中心的分类" class="headerlink" title="呼叫中心的分类"></a>呼叫中心的分类</h2><p><strong>在实际业务情况中，不同的呼叫中心可能会具备多种属性，按照呼叫类型分类如下：</strong></p>
-<ul>
-<li><strong>呼入型呼叫中心：</strong> 这种类型的呼叫中心不主动发起呼叫，其主要功能是应答客户发起的呼叫，其应用的主要方面是技术支持、产品咨询等；</li>
-<li><strong>呼出型呼叫中心：</strong> 这种类型的呼叫中心是呼叫的主动发起方，其主要应用足市场营销、市场调查、客户满意度调查；</li>
-<li><strong>呼入+呼出混合型呼叫中心：</strong> 单纯的呼入型呼叫中心和单纯的呼出型呼叫中心都比较少，大量的呼叫中心既处理客户发出的呼叫，也主动发起呼叫。</li>
-</ul>
-<h2 id="呼叫中心系统架构"><a href="#呼叫中心系统架构" class="headerlink" title="呼叫中心系统架构"></a>呼叫中心系统架构</h2><div align="center"> <img src="/sugar/img/callcenter.jpg"  alt="呼叫中心系统架构"/> </div>
-
-<p>一个完整的呼叫中心系统可以大致分为3个部分：<span class='p blue'>线路硬件部分</span>、<span class='p blue'>呼叫中心软件</span>和对应呼叫中心的<span class='p blue'>业务系统（应用）</span>，三个部分相互配合，通过信息的传递与交互，实现呼叫中心的正常运营和高效工作。</p>
-<blockquote>
-<p>线路硬件部分负责呼叫的接入和传输<br>呼叫中心软件负责呼叫管理和处理<br>业务系统（应用）则提供必要的业务支持和信息，并与呼叫中心软件进行数据交互，从而提供满足用户需求的全面服务。</p>
-</blockquote>
-<h2 id="呼叫中心的工作原理"><a href="#呼叫中心的工作原理" class="headerlink" title="呼叫中心的工作原理"></a>呼叫中心的工作原理</h2><p><strong>呼叫中心的工作原理主要包括以下几个步骤：</strong></p>
-<ol>
-<li>‌来电识别与分配‌：当客户的电话呼入时，系统会进行来电号码的识别，并根据预先设定的规则将来电分配给相应的客服人员。这个过程类似于机场的航班调度，确保每一通电话都能准确无误地被处理。</li>
-<li>客户信息管理‌：在通话开始时，系统会快速检索并展示客户的历史信息，如之前的交易记录、服务请求等。这有助于客服人员迅速了解客户的背景，提供个性化的服务。</li>
-<li>‌通话管理‌：系统会对通话进行实时监控和录音，以确保服务质量并进行后续的数据分析。同时，系统还支持通话转接、会议通话等功能，以满足客户的不同需求。</li>
-<li>‌交互式语音应答（IVR）‌：对于简单的查询或操作，系统通常会提供IVR服务。客户可以通过按键选择不同的服务选项，类似于在自助餐厅挑选菜品。</li>
-<li>数据统计与分析‌：呼叫中心系统会根据收集到的数据生成各种报表，帮助企业分析客户服务的效果。这些报表可能包括通话时长、等待时间、解决问题的效率等。</li>
-</ol>
-]]></content>
-      <categories>
-        <category>语音通信基础</category>
-      </categories>
-      <tags>
-        <tag>voip</tag>
-        <tag>sip</tag>
-        <tag>ivr</tag>
-        <tag>nlp</tag>
-        <tag>tss</tag>
-        <tag>呼叫中心</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>人工随访电话超过10min自动挂断分析</title>
-    <url>/2024/10/21/%E4%BA%BA%E5%B7%A5%E9%9A%8F%E8%AE%BF%E7%94%B5%E8%AF%9D%E8%B6%85%E8%BF%8710min%E8%87%AA%E5%8A%A8%E6%8C%82%E6%96%AD%E5%88%86%E6%9E%90/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>hexo-插入图片</title>
-    <url>/2024/10/15/hexo-%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87/</url>
-    <content><![CDATA[<h2 id="插入本地图片"><a href="#插入本地图片" class="headerlink" title="插入本地图片"></a>插入本地图片</h2><figure class="highlight markdown"><table><tr><td class="code"><pre><code class="hljs MARKDOWN">![<span class="hljs-string">图片描述</span>](<span class="hljs-link">图片的url</span>)<br></code></pre></td></tr></table></figure>
-<p>举个例子:我想插入images目录下的goku.png的照片并命名为悟空<br>PS: hexo默认的/目录为source目录、我们需要在souces目录下创建个images即可并把gouku.png图片放到images目录下即可引用<br><figure class="highlight markdown"><table><tr><td class="code"><pre><code class="hljs MARKDOWN">![<span class="hljs-string">悟空</span>](<span class="hljs-link">/images/goku.png</span>)<br></code></pre></td></tr></table></figure><br><img src="/images/goku.png" alt="悟空"></p>
-]]></content>
-      <categories>
-        <category>Hexo博客</category>
-      </categories>
-      <tags>
-        <tag>hexo插入图片</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>hexo博客插入图表</title>
     <url>/2024/10/08/hexo-%E6%8F%92%E5%85%A5%E5%9B%BE%E8%A1%A8/</url>
-    <content><![CDATA[<h2 id="柱状图"><a href="#柱状图" class="headerlink" title="柱状图"></a>柱状图</h2><div id="echarts8262" style="width: 85%;height: 400px;margin: 0 auto"></div>
+    <content><![CDATA[<h2 id="柱状图"><a href="#柱状图" class="headerlink" title="柱状图"></a>柱状图</h2><div id="echarts1710" style="width: 85%;height: 400px;margin: 0 auto"></div>
 <script src="https://cdn.bootcss.com/echarts/3.8.0/echarts.common.min.js"></script>
 <script type="text/javascript">
         // 基于准备好的dom，初始化echarts实例
-        var myChart = echarts.init(document.getElementById('echarts8262'));
+        var myChart = echarts.init(document.getElementById('echarts1710'));
         // 指定图表的配置项和数据
         var option = option = {
   xAxis: {
@@ -250,11 +186,11 @@
         // 使用刚指定的配置项和数据显示图表。
         myChart.setOption(option);
 </script>
-<h2 id="带有颜色的柱状图"><a href="#带有颜色的柱状图" class="headerlink" title="带有颜色的柱状图"></a>带有颜色的柱状图</h2><div id="echarts8601" style="width: 85%;height: 400px;margin: 0 auto"></div>
+<h2 id="带有颜色的柱状图"><a href="#带有颜色的柱状图" class="headerlink" title="带有颜色的柱状图"></a>带有颜色的柱状图</h2><div id="echarts2771" style="width: 85%;height: 400px;margin: 0 auto"></div>
 <script src="https://cdn.bootcss.com/echarts/3.8.0/echarts.common.min.js"></script>
 <script type="text/javascript">
         // 基于准备好的dom，初始化echarts实例
-        var myChart = echarts.init(document.getElementById('echarts8601'));
+        var myChart = echarts.init(document.getElementById('echarts2771'));
         // 指定图表的配置项和数据
         var option = option = {
   title: {
@@ -327,11 +263,11 @@
         // 使用刚指定的配置项和数据显示图表。
         myChart.setOption(option);
 </script>
-<h2 id="饼状图"><a href="#饼状图" class="headerlink" title="饼状图"></a>饼状图</h2><div id="echarts9963" style="width: 85%;height: 400px;margin: 0 auto"></div>
+<h2 id="饼状图"><a href="#饼状图" class="headerlink" title="饼状图"></a>饼状图</h2><div id="echarts6864" style="width: 85%;height: 400px;margin: 0 auto"></div>
 <script src="https://cdn.bootcss.com/echarts/3.8.0/echarts.common.min.js"></script>
 <script type="text/javascript">
         // 基于准备好的dom，初始化echarts实例
-        var myChart = echarts.init(document.getElementById('echarts9963'));
+        var myChart = echarts.init(document.getElementById('echarts6864'));
         // 指定图表的配置项和数据
         var option = option = {
   title: {
@@ -371,11 +307,11 @@
         // 使用刚指定的配置项和数据显示图表。
         myChart.setOption(option);
 </script>
-<h2 id="仪表盘"><a href="#仪表盘" class="headerlink" title="仪表盘"></a>仪表盘</h2><div id="echarts1556" style="width: 85%;height: 400px;margin: 0 auto"></div>
+<h2 id="仪表盘"><a href="#仪表盘" class="headerlink" title="仪表盘"></a>仪表盘</h2><div id="echarts1217" style="width: 85%;height: 400px;margin: 0 auto"></div>
 <script src="https://cdn.bootcss.com/echarts/3.8.0/echarts.common.min.js"></script>
 <script type="text/javascript">
         // 基于准备好的dom，初始化echarts实例
-        var myChart = echarts.init(document.getElementById('echarts1556'));
+        var myChart = echarts.init(document.getElementById('echarts1217'));
         // 指定图表的配置项和数据
         var option = option = {
   tooltip: {
@@ -407,6 +343,82 @@
         <tag>hexo</tag>
         <tag>butterfly</tag>
         <tag>echarts</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>人工随访电话超过10min自动挂断分析</title>
+    <url>/2024/10/21/%E4%BA%BA%E5%B7%A5%E9%9A%8F%E8%AE%BF%E7%94%B5%E8%AF%9D%E8%B6%85%E8%BF%8710min%E8%87%AA%E5%8A%A8%E6%8C%82%E6%96%AD%E5%88%86%E6%9E%90/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>呼叫中心简介</title>
+    <url>/2024/10/16/%E5%91%BC%E5%8F%AB%E4%B8%AD%E5%BF%83%E7%AE%80%E4%BB%8B/</url>
+    <content><![CDATA[<div class="tip success"><p>中国号码管理部门主要包括<span class='p red'>工业和信息化部信息通信管理局（简称工信部）</span>、国家市场监督管理总局、国家药品监督管理局和国家知识产权局 。‌这些部门协同工作，负责管理中国的号码资源和相关服务。</p>
+</div>
+<div class="tip "><p>工业和信息化部信息通信管理局负责<span class='p red'>电信和互联网业务的监管</span>，包括<span class='p red'>电信网码号资源的使用和调整审批</span></p>
+</div>
+<h2 id="什么是呼叫中心"><a href="#什么是呼叫中心" class="headerlink" title="什么是呼叫中心"></a>什么是呼叫中心</h2><blockquote>
+<p>呼叫中心<span class='p blue'>（‌Call Center或Client Service Center）</span>是一个专门用于管理和处理大量电话呼叫的集中化客户服务系统。它是一个组织或企业内部的部门或外包服务提供商，致力于通过电话与客户进行沟通、解决问题、提供支持以及进行营销等活动。</p>
+</blockquote>
+<h2 id="呼叫中心的发展历程"><a href="#呼叫中心的发展历程" class="headerlink" title="呼叫中心的发展历程"></a>呼叫中心的发展历程</h2><blockquote>
+<p><span class='p blue'>‌呼叫中心</span>最早起源于20世纪30年代的<span class='p blue'>北美</span>，最初的形式是在 <span class='p blue'>民航业</span>和<span class='p blue'>旅游业</span>中使用的电话服务热线。‌ 1956年，<span class='p blue'>美国泛美航空公司</span>开通了世界上第一个具有一定规模的<span class='p blue'>24小时服务</span>的呼叫中心，为客户提供机票预定服务‌。</p>
+</blockquote>
+<p><strong>呼叫中心的发展历程可以分为几个重要阶段：</strong></p>
+<div align="center"> <img src="/sugar/img/callcenter01.jpg" title="呼叫中心发展历程" /> </div>
+
+<ol>
+<li><strong>传统呼叫中心（1970-1990年代）：</strong> 传统呼叫中心起源于上世纪70年代的<span class='p blue'>自动呼叫分配（ACD）系统。</span>在这个阶段，呼叫中心主要使用电话交换机和自动呼叫分配系统，为客户提供基本的电话支持和服务；</li>
+<li><strong>多媒体呼叫中心（1990-2000年代）：</strong> 随着互联网和计算机技术的发展，呼叫中心开始整合多种媒体渠道，如电子邮件、传真和网上聊天，以满足不同客户的沟通需求。此时，呼叫中心的服务范围和功能逐渐扩展；</li>
+<li><strong>云呼叫中心（2000年代至今）：</strong> 随着云计算技术的兴起，云呼叫中心成为一种更灵活和可扩展的解决方案。云呼叫中心将传统的基础设施搬移到云端，为企业提供更高效、实时的客户服务和更多的功能扩展选择；</li>
+<li><strong>智能呼叫中心（现代）：</strong> 随着<span class='p blue'>人工智能</span>和<span class='p blue'>大数据技术</span>的发展，呼叫中心开始应用智能化技术来提高服务质量和效率。通过<span class='p blue'>机器学习</span>、<span class='p blue'>自然语言处理</span>和<span class='p blue'>语音识别</span>等技术，智能呼叫中心能够实现实时语音分析、自动回答问题、智能路由和预测客户需求等功能。</li>
+</ol>
+<h2 id="呼叫中心的核心功能"><a href="#呼叫中心的核心功能" class="headerlink" title="呼叫中心的核心功能"></a>呼叫中心的核心功能</h2><div align="center"> <img src="/sugar/img/callcenter02.jpg" title="呼叫中心核心功能"/> </div>
+
+<ol>
+<li><strong>IVR自动语音导航：</strong> 能够有效的分流客户，从而提高通话的效率。除此之外，通过IVR自动语音导航还可以针对不同时间来电启动不一样的服务流程。</li>
+<li><strong>来电排队功能‌：</strong> 在高峰期，系统可以自动排队，播放舒缓音乐缓解客户等待焦虑，同时支持自动留言功能。</li>
+<li>‌<strong>全程录音功能‌：</strong> 通话录音用于智能质检，确保服务质量，并在需要时作为证据。</li>
+<li>‌<strong>智能外呼功能‌：</strong> 通过预设的号码列表进行批量自动拨号，无需人工干预，大幅提高了外呼效率。</li>
+</ol>
+<h2 id="呼叫中心的分类"><a href="#呼叫中心的分类" class="headerlink" title="呼叫中心的分类"></a>呼叫中心的分类</h2><blockquote>
+<p><strong>在实际业务情况中，不同的呼叫中心可能会具备多种属性，按照呼叫类型分类如下：</strong></p>
+<ul>
+<li><strong>呼入型呼叫中心：</strong> 这种类型的呼叫中心不主动发起呼叫，其主要功能是应答客户发起的呼叫，其应用的主要方面是技术支持、产品咨询等；</li>
+<li><strong>呼出型呼叫中心：</strong> 这种类型的呼叫中心是呼叫的主动发起方，其主要应用足市场营销、市场调查、客户满意度调查；</li>
+<li><strong>呼入+呼出混合型呼叫中心：</strong> 单纯的呼入型呼叫中心和单纯的呼出型呼叫中心都比较少，大量的呼叫中心既处理客户发出的呼叫，也主动发起呼叫。</li>
+</ul>
+</blockquote>
+<h2 id="呼叫中心系统架构"><a href="#呼叫中心系统架构" class="headerlink" title="呼叫中心系统架构"></a>呼叫中心系统架构</h2><div align="center"> <img src="/sugar/img/callcenter.jpg"  alt="呼叫中心系统架构"/> </div>
+
+<blockquote>
+<p>一个完整的呼叫中心系统可以大致分为3个部分：<span class='p blue'>线路硬件部分</span>、<span class='p blue'>呼叫中心软件</span>和对应呼叫中心的<span class='p blue'>业务系统（应用）</span>，三个部分相互配合，通过信息的传递与交互，实现呼叫中心的正常运营和高效工作。</p>
+</blockquote>
+<ol>
+<li>线路硬件部分负责呼叫的接入和传输</li>
+<li>呼叫中心软件负责呼叫管理和处理</li>
+<li>业务系统（应用）则提供必要的业务支持和信息，并与呼叫中心软件进行数据交互，从而提供满足用户需求的全面服务。</li>
+</ol>
+<h2 id="呼叫中心的工作原理"><a href="#呼叫中心的工作原理" class="headerlink" title="呼叫中心的工作原理"></a>呼叫中心的工作原理</h2><blockquote>
+<p><strong>呼叫中心的工作原理主要包括以下几个步骤：</strong></p>
+</blockquote>
+<ol>
+<li>‌来电识别与分配‌：当客户的电话呼入时，系统会进行来电号码的识别，并根据预先设定的规则将来电分配给相应的客服人员。这个过程类似于机场的航班调度，确保每一通电话都能准确无误地被处理。</li>
+<li>客户信息管理‌：在通话开始时，系统会快速检索并展示客户的历史信息，如之前的交易记录、服务请求等。这有助于客服人员迅速了解客户的背景，提供个性化的服务。</li>
+<li>‌通话管理‌：系统会对通话进行实时监控和录音，以确保服务质量并进行后续的数据分析。同时，系统还支持通话转接、会议通话等功能，以满足客户的不同需求。</li>
+<li>‌交互式语音应答（IVR）‌：对于简单的查询或操作，系统通常会提供IVR服务。客户可以通过按键选择不同的服务选项，类似于在自助餐厅挑选菜品。</li>
+<li>数据统计与分析‌：呼叫中心系统会根据收集到的数据生成各种报表，帮助企业分析客户服务的效果。这些报表可能包括通话时长、等待时间、解决问题的效率等。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>语音通信基础</category>
+      </categories>
+      <tags>
+        <tag>voip</tag>
+        <tag>sip</tag>
+        <tag>ivr</tag>
+        <tag>nlp</tag>
+        <tag>tss</tag>
+        <tag>呼叫中心</tag>
       </tags>
   </entry>
 </search>
